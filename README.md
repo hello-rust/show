@@ -39,6 +39,7 @@ These shows inspired me to make this:
 * Add time markers to the video description.
 * Announce episode on [Twitter](https://twitter.com/matthiasendler).
 * Announce episode on [/r/rust](https://www.reddit.com/r/rust/).
+* Add a link to the video to the `README` (in [this](https://github.com/campoy/justforfunc) format).
 
 ### Credits
 

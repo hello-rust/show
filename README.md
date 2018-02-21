@@ -27,11 +27,14 @@ These shows inspired me to make this:
 
 #### Shooting the video
 
+* Set Mac to "do not disturb mode"
 * Prepare IDE settings
   - Bigger font
   - Hide sidebar
-* Cleanup digital camera
-* Set up mic
+* Close all unrelated apps
+* Cleanup SD card of digital camera
+* Set-up microphone
+* Test recording and audio
 * Get cracking!
 
 #### Before uploading

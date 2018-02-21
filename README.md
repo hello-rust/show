@@ -1,9 +1,12 @@
  ![Hello Rust Show logo](hello-rust.png)
 
-This is the main repository for *Hello Rust*, a show about the Rust programming language.
+This is the main repository for *Hello Rust*,  
+a live-coding show by [Matthias Endler](@mre) about the Rust programming language.  
 In here, you find the list of previous episodes, the planned shows and the show notes.
 
-If you have an idea for a future show, don't hesitate to create a new issue.
+### How to support me
+
+**If you have an idea for a future show, [don't hesitate to create a new issue](/issues).**
 
 ### Inspiration
 
@@ -15,9 +18,12 @@ These shows inspired me to make this:
 
 ### List of episodes
 
--- None so far --
+-- Soon --
 
 ### Creating an episode
+
+The following notes are helpful for me when recording a new episode.  
+Also, I thought it might be interesting to others, who also consider to run their own show.  
 
 #### Getting started
 
@@ -29,7 +35,7 @@ These shows inspired me to make this:
 
 * Set Mac to "do not disturb mode"
 * Prepare IDE settings
-  - Bigger font
+  - Set slightly bigger font (VS Code: `editor.fontSize": 25`)
   - Hide sidebar
 * Close all unrelated apps
 * Cleanup SD card of digital camera

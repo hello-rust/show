@@ -7,7 +7,7 @@ It will be our lighthearted journey to become fearless, more effective programme
 My goal is to address beginner and intermediate Rust programmers and show that systems programming is a lot of fun!
 You can also watch the video at 1.5x the speed to boost the learning pace.
 
-* For updates, PLEASE SUBSCRIBE.
+* For regular updates, PLEASE SUBSCRIBE.
 * If you have any questions/additions, please post them all at the comments section below,
 or send an e-mail to: mail at hello-rust.show
 * You can support the show on Patreon at https://www.patreon.com/hellorust

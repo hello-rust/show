@@ -44,6 +44,16 @@ Also, I thought it might be interesting to others, who also consider to run thei
 * Test recording and audio
 * Get cracking!
 
+### Shooting the intro
+
+* Create a teaser intro that shows exactly what to expect as an outcome (show some code, too).
+
+### Postproduction
+
+* Cut video
+* Add music
+* Normalize sound
+
 #### Before uploading
 
 * Upload the source code to Github.

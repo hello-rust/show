@@ -51,21 +51,28 @@ Also, I thought it might be interesting to others, who also consider to run thei
 ### Postproduction
 
 * Cut video
+* Color Grading
 * Add music
 * Normalize sound
 
-#### Before uploading
+#### Before publication
 
-* Upload the source code to Github.
+* Upload the project (including show notes) to Github.
 * Create a nice title image for the video.
+
+#### Publication
+
+* [Hello Rust homepage](https://hello-rust.show)
+* [YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw)
 
 #### After publication
 
-* Add links to the video description.
+* Add show notes to the video description.
 * Add time markers to the video description.
 * Announce episode on [Twitter](https://twitter.com/matthiasendler).
 * Announce episode on [/r/rust](https://www.reddit.com/r/rust/).
-* Add a link to the video to the `README` (in [this](https://github.com/campoy/justforfunc) format).
+* Add a link to the video in the `README`.  
+  Format: `#122: Foo and the magic Bar - Builder Pattern, Enums, standard traits [Video][Code]`
 * Charge camera battery for next shoot.
 
 ### FAQ

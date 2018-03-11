@@ -33,15 +33,15 @@ Also, I thought it might be interesting to others, who also consider to run thei
 
 #### Shooting the video
 
-* Set Mac to do not disturb mode
+* Cleanup SD card of digital camera
+* Set-up microphone
+* Test recording and audio
+* Close all unrelated apps
 * Hide Bookmarks Toolbar in Firefox (right-click next to address bar and remove tick)
 * Prepare IDE settings
   - Set slightly bigger font (VS Code: `editor.fontSize": 15`)
   - Enter "zen mode"
-* Close all unrelated apps
-* Cleanup SD card of digital camera
-* Set-up microphone
-* Test recording and audio
+* Set Mac to do not disturb mode
 * Get cracking!
 
 ### Shooting the intro
@@ -83,6 +83,9 @@ Also, I thought it might be interesting to others, who also consider to run thei
 **A:** Right now, I use *VSCode* and the *Rust* plugin plus the *Rust Language Server*.  
 I also heard good things about the IntelliJ Rust plugin, though.  
 Therefore, I might try this setup in the future.  
+
+**Q: What is your post-processing routine?**    
+**A:** Quite simple. I solely use iMovie right now. There are better programs out there, but so far it does the job.
 
 ### Credits
 

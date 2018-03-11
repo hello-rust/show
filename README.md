@@ -18,7 +18,7 @@ These shows inspired me to make this:
 
 ### List of episodes
 
--- Soon --
+* #1: **Hello Universe** - Builder Pattern, Enums, standard traits [[Video](#)][[Code](/episodes/1-hello-universe)]
 
 ### Creating an episode
 
@@ -71,8 +71,10 @@ Also, I thought it might be interesting to others, who also consider to run thei
 * Add time markers to the video description.
 * Announce episode on [Twitter](https://twitter.com/matthiasendler).
 * Announce episode on [/r/rust](https://www.reddit.com/r/rust/).
-* Add a link to the video in the `README`.  
-  Format: `#122: Foo and the magic Bar - Builder Pattern, Enums, standard traits [Video][Code]`
+* Add a link to the video in the `README`:  
+	```
+	* #122: **Foo and the magic Bar** - Builder Pattern, Enums, standard traits [[Video](#)][[Code](/episodes/122-foo-and-bar)]
+	```
 * Charge camera battery for next shoot.
 
 ### FAQ

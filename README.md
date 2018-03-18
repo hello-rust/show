@@ -18,8 +18,8 @@ These shows inspired me to make this:
 
 ### List of episodes
 
-* #0: **Humble Beginnings** - An introduction on what this show is about. [[Code](/episodes/0-humble-beginnings)]
-* #1: **Hello Universe** - Builder Pattern, Enums, standard traits. [[Video](#)][[Code](/episodes/1-hello-universe)]
+* [#0: **Humble Beginnings**](/episodes/0-humble-beginnings) - An introduction on what this show is about. [[Video](https://www.youtube.com/watch?v=jMJRTjnh_jo)]
+* [#1: **Hello Universe**](/episodes/1-hello-universe) - Builder Pattern, Enums, standard traits. [[Video](https://www.youtube.com/watch?v=STWuPMcwwbw)]
 
 ### Creating an episode
 

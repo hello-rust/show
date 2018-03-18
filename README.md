@@ -88,6 +88,12 @@ Therefore, I might try this setup in the future.
 **Q: What is your post-processing routine?**    
 **A:** Quite simple. I solely use iMovie right now. There are better programs out there, but so far it does the job.
 
+**Q: What is the name of your theme?**  
+**A:** Usually I use 1337, but that can vary per show. I will try to mention it in the show notes, if it's something else.
+
+**Q: What font are you using?**  
+**A:** Operator Sans Mono
+
 ### Credits
 
 * Gears from the show intro [designed by Freepik](http://www.freepik.com).

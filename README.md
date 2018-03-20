@@ -8,7 +8,7 @@ In this repository, you find the list of previous episodes, the planned shows an
 
 ### How to support me
 
-**If you have an idea for a future show, [don't hesitate to create a new issue](/issues).**  
+**If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).**  
 **If you want to donate some money for a good cause, [become a patron](https://www.patreon.com/hellorust).**
 
 ### Inspiration

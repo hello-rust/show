@@ -5,3 +5,5 @@
 3. There's a ton of royality free music out there, but it's hard to find because it's not properly categorized or
    the preview is cumbersome. Right now I use [freemusicarchive](freemusicarchive.org/), although it's not the
    most convenient to use.
+4. Like everything else, video editing is a rabbit hole. From multicamera setups to LUTs, 
+   there's sooo much to learn and experiment with. But it's also a lot of fun!

@@ -11,6 +11,12 @@ In this repository, you find the list of previous episodes, the planned shows an
 **If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).**  
 **If you want to donate some money for a good cause, [become a patron](https://www.patreon.com/hellorust).**
 
+### List of episodes
+
+* [#0: **Humble Beginnings**](/episodes/0-humble-beginnings) - An introduction on what this show is about. [[Video](https://www.youtube.com/watch?v=jMJRTjnh_jo)]
+* [#1: **Hello Universe**](/episodes/1-hello-universe) - Builder Pattern, Enums, standard traits. [[Video](https://www.youtube.com/watch?v=STWuPMcwwbw)]
+* [#2: **Snakes and Gears**](/episodes/2-snakes-and-gears) - Entry API, list compreshensions, iter, filter, map, and reduce. [[Video](https://www.youtube.com/watch?v=BWuSwwy-tlU)]
+
 ### Inspiration
 
 These shows inspired me to make this:
@@ -18,12 +24,6 @@ These shows inspired me to make this:
 * [Ferris Streams Stuff](https://www.youtube.com/channel/UC4mpLlHn0FOekNg05yCnkzQ)
 * [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [Just for func](https://github.com/campoy/justforfunc)
-
-### List of episodes
-
-* [#0: **Humble Beginnings**](/episodes/0-humble-beginnings) - An introduction on what this show is about. [[Video](https://www.youtube.com/watch?v=jMJRTjnh_jo)]
-* [#1: **Hello Universe**](/episodes/1-hello-universe) - Builder Pattern, Enums, standard traits. [[Video](https://www.youtube.com/watch?v=STWuPMcwwbw)]
-* [#2: **Snakes and Gears**](/episodes/2-snakes-and-gears) - Entry API, list compreshensions, iter, filter, map, and reduce. [[Video](https://www.youtube.com/watch?v=BWuSwwy-tlU)]
 
 ### Creating an episode
 

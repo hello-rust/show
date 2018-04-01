@@ -1,6 +1,6 @@
  ![Hello Rust Show logo](hello-rust.png)
 
-This is the main repository for *Hello Rust*,  
+This is the main repository of *Hello Rust*,  
 a live-coding show by [Matthias Endler](@mre) about the Rust programming language.  
 It is targeted towards intermediate Rust programmers, who have already read [the book](https://doc.rust-lang.org/book/) and want to learn advanced patterns and tricks as well as how to write ergonomic code in Rust.
 
@@ -55,41 +55,41 @@ Also, I thought it might be interesting to others, who also consider to run thei
 
 ### Postproduction
 
-* Cut video
-* Color Grading
-* Add music
-* Normalize sound
+1. Cut video
+2. Normalize sound
+3. Add music
+4. Color Grading
 
 #### Before publication
 
-* Upload the project (including show notes) to Github.
-* Create a nice title image for the video.
+* Create nice title images for the video and the website.
 
 #### Publication
 
-* [Hello Rust homepage](https://hello-rust.show)
-* [YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw)
+1. [Github](https://github.com/hello-rust/show) (Show notes, plus link in `README`)
+2. [Homepage](https://hello-rust.show)
+3. [Patreon](https://www.patreon.com/hellorust)
+4. [YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw)
+5. [Twitter](https://twitter.com/hellorustshow)
+6. [Reddit](https://www.reddit.com/r/rust/)
 
 #### After publication
 
 * Add show notes to the video description.
 * Optional: Add time markers to the video description.
-* Announce episode on [Twitter](https://twitter.com/matthiasendler).
-* Announce episode on [/r/rust](https://www.reddit.com/r/rust/).
-* Add a link to the video in the `README`.
 * ~~Charge camera battery for next shoot.~~ (I bought an external power adapter)
 
 ### FAQ
 
-**Q: What development environment are you using?**    
+**Q: What development environment do you use?**    
 **A:** Right now, I use *VSCode* and the *Rust* plugin plus the *Rust Language Server*.  
 I've heard good things about the IntelliJ Rust plugin, though.  
 Therefore, I might try this setup in the future.  
 
 **Q: What is your post-processing routine?**    
-**A:** Quite simple. I solely use iMovie right now. There are better programs out there, but so far it does the job.
+**A:** Quite simple. I solely use ˜˜iMovie˜˜ (Davinci Resolve) right now. There are better programs out there, but so far it does the job. I'm mostly annoyed by the long rendering times on my MacBook. (5 hours for 30 minutes of video)
 
-**Q: What is the name of your theme?**  
+**Q: What is the name of your color theme?**  
 **A:** Usually I use 1337, but that can vary per show. I will try to mention it in the show notes, if it's something else.
 
 **Q: What font are you using?**  

@@ -18,6 +18,10 @@ I was clearly inspired by the following shows:
 * [Just for func](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw)
 * [fun fun function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 
+## Meta
+
+Wallpaper: [Grumpy Cat](https://www.tineye.com/search/4e3d2800ae44015cce4a5ee5e04b94226cae14ba/)
+
 ## Support!
 
 If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw).  

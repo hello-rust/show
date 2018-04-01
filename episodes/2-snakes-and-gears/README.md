@@ -20,6 +20,10 @@ Keywords: iterators, map, filter, Entry API, List comprehensions
 * Experimenting with Python is much cooler with [Jupyter](http://jupyter.org/) (or IPython) notebooks. I've added an example to the code section.
 * If you really **need** list comprehensions, you could use [cute](https://crates.io/crates/cute), which is a set of macros that make this syntax possible.
 
+## Meta
+
+Colorscheme: [Gruvbox Dark](https://github.com/morhetz/gruvbox)
+
 ## Support!
 
 If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw).  

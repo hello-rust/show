@@ -15,6 +15,10 @@ My goal is to address beginner and intermediate Rust questions and show that sys
 
 * [Test organization using `super::*`](https://doc.rust-lang.org/book/second-edition/ch11-03-test-organization.html)
 
+## Meta
+
+Colorscheme: [1337](https://github.com/MarkMichos/1337-Scheme)
+
 ## Support!
 
 If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw).  

@@ -15,7 +15,7 @@ In this repository, you find the list of previous episodes, the planned shows an
 
 * [#0: **Humble Beginnings**](/episodes/0-humble-beginnings) - An introduction on what this show is about. [[Video](https://www.youtube.com/watch?v=jMJRTjnh_jo)]
 * [#1: **Hello Universe**](/episodes/1-hello-universe) - Builder Pattern, Enums, standard traits. [[Video](https://www.youtube.com/watch?v=STWuPMcwwbw)]
-* [#2: **Snakes and Gears**](/episodes/2-snakes-and-gears) - Entry API, list compreshensions, iter, filter, map, and reduce. [[Video](https://www.youtube.com/watch?v=BWuSwwy-tlU)]
+* [#2: **Snakes and Gears**](/episodes/2-snakes-and-gears) - Entry API, list compreshensions, iter, filter, map, and reduce. [[Video](https://www.youtube.com/watch?v=bS5rtxWd2yQ)]
 
 ### Inspiration
 

@@ -8,21 +8,22 @@ Keywords: Option, Result, Error handling, URL parsing, external crates
 ## Things I mentioned during the show
 
 * [repoctl main repository](https://github.com/pizzamig/repoctl)
-* [UCL - the universal configuratio language](https://github.com/vstakhov/libucl)
+* [UCL - the Universal Configuration Language](https://github.com/vstakhov/libucl)
 * [Rust bindings for UCL](https://github.com/hauleth/ucl-rs)
 * [URL crate](https://crates.io/crates/url)
 * [Rust RFC - Clarify and streamline paths and visibility](https://github.com/rust-lang/rust/issues/44660) 
 
 ## Things I should have mentioned (but forgot)
 
-* You should definitely create a pull request to repoctl! Luca will support you if you need help.
-  Here are some ideas:
-  - Replace things like `fuf` and `fuf2` in the tests with a data provider
-  - Use `unwrap_or_default()` where useful
-* Exercise to the reader: Run [clippy](https://github.com/rust-lang-nursery/rust-clippy) on the project and fix all code smells.
-* Somebody should definitely implement [`Default`](https://doc.rust-lang.org/std/default/trait.Default.html) for [`Repository`](https://github.com/pizzamig/repoctl/blob/master/src/repository/mod.rs#L9).
+You should definitely create a pull request to repoctl! Luca and me will support you if we can.
 
-## Meta
+Here are some ideas:
+- Replace things like `fuf` and `fuf2` in the tests with a data provider
+- Use `unwrap_or_default()` where useful
+- Run [clippy](https://github.com/rust-lang-nursery/rust-clippy) on the project and fix all code smells.
+- Somebody should implement [`Default`](https://doc.rust-lang.org/std/default/trait.Default.html) for [`Repository`](https://github.com/pizzamig/repoctl/blob/master/src/repository/mod.rs#L9).
+
+## Credits
 
 * [Elevator sound](https://freesound.org/people/omarie/sounds/382447/)
 * [Comic whistle sound](https://freesound.org/people/InspectorJ/sounds/410803/)

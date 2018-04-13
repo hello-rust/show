@@ -27,6 +27,7 @@ Here are some ideas:
 
 * [Elevator sound](https://freesound.org/people/omarie/sounds/382447/)
 * [Comic whistle sound](https://freesound.org/people/InspectorJ/sounds/410803/)
+* [Swoosh sound](https://freesound.org/people/martian/sounds/19312/)
 
 ## Support!
 

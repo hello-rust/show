@@ -89,7 +89,7 @@ I've heard good things about the IntelliJ Rust plugin, though.
 Therefore, I might try this setup in the future.  
 
 **Q: What is your post-processing routine?**    
-**A:** Quite simple. I solely use ˜˜iMovie˜˜ (Davinci Resolve) right now. There are better programs out there, but so far it does the job. I'm mostly annoyed by the long rendering times on my MacBook. (5 hours for 30 minutes of video)
+**A:** Quite simple. I solely use ~~iMovie~~ (Davinci Resolve) right now. There are better programs out there, but so far it does the job. I'm mostly annoyed by the long rendering times on my MacBook. (5 hours for 30 minutes of video)
 
 **Q: What is the name of your color theme?**  
 **A:** Usually I use 1337, but that can vary per show. I will try to mention it in the show notes, if it's something else.

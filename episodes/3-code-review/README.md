@@ -9,6 +9,7 @@ Keywords: Option, Result, Error handling, URL parsing, external crates
 
 * [repoctl main repository](https://github.com/pizzamig/repoctl)
 * [repoctl pull request from the episode](https://github.com/pizzamig/repoctl/pull/1)
+* [autoconf documentation](https://www.gnu.org/software/autoconf/autoconf.html)
 * [UCL - the Universal Configuration Language](https://github.com/vstakhov/libucl)
 * [Rust bindings for UCL](https://github.com/hauleth/ucl-rs)
 * [URL crate](https://crates.io/crates/url)

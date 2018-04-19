@@ -88,6 +88,9 @@ Also, I thought it might be interesting to others, who also consider to run thei
 I've heard good things about the IntelliJ Rust plugin, though.  
 Therefore, I might try this setup in the future.  
 
+**Q: What audio/video equipment do you use?**
+**A:** Video: Canon 700D. Audio: Rhode NT USB, Takstar SGC 598.
+
 **Q: What is your post-processing routine?**    
 **A:** Quite simple. I solely use ~~iMovie~~ (Davinci Resolve) right now. There are better programs out there, but so far it does the job. I'm mostly annoyed by the long rendering times on my MacBook. (5 hours for 30 minutes of video)
 

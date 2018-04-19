@@ -1,0 +1,20 @@
+number: 1
+title: Hello Universe
+url: https://www.youtube.com/watch?v=STWuPMcwwbw
+intro: >
+      This is the very first real coding episode of "Hello Rust!".
+details: >
+      Today we will write *hello world*, but by leveraging the builder pattern
+      to support different languages (hence the title "Hello Universe").
+keywords:
+  - default trait
+  - debug trait
+  - builder pattern
+notes:
+  - "[Kernighan & Ritchie - The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language)"
+  - "[Default trait](https://doc.rust-lang.org/std/fmt/trait.Default.html)"
+  - "[Debug trait](https://doc.rust-lang.org/std/fmt/trait.Debug.html)"
+others:
+  - "[Test organization using `super::*`](https://doc.rust-lang.org/book/second-edition/ch11-03-test-organization.html)"
+metas:
+  - "Colorscheme: [1337](https://github.com/MarkMichos/1337-Scheme)"

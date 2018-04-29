@@ -1,5 +1,8 @@
 {{ episode.intro }} 🤓 Show notes: https://github.com/hello-rust/show/episode/{{ episode.number }}
 
+Keywords: {{ episode.keywords | join(sep=", ") }}
+
+
 Hello Rust! is a show about the Rust programming language.
 My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun!
 

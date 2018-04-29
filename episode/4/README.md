@@ -5,7 +5,7 @@ I hack on a small application that will help me get better at touch typing.
 Not a tutorial, but just a fun hacking session to build a touch typing application using ggez - a game framework written in Rust.
   
 
-[Watch now on Youtube!](https://www.youtube.com/watch?v=XXXXXXXXXXX)  
+[Watch now on Youtube!](https://youtu.be/S0Vubd-C5-o)  
 
 Keywords: touch typing, application, ggez, event handling, game state, iterators, hacking, live-coding
 

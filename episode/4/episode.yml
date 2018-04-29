@@ -24,3 +24,11 @@ metas:
   - "I've used sound effects from [free sound pack by Setuniman](https://freesound.org/people/Setuniman/packs/8199/)"
   - "[Curious by Setuniman](https://freesound.org/people/Setuniman/sounds/154907/) available at https://freesound.org/s/154907/"
   - "Plop sound by [HerbertBoland](https://freesound.org/people/HerbertBoland/sounds/33369/)"
+markers:
+  - "Printing text on the screen: 2:12"
+  - "Event handling in ggez: 6:16"
+  - "Wrapping text: 11:52"
+  - "Adding text input: 18:57"
+  - "Matching input characters: 23:08"
+  - "Colors!: 28:43"
+  - "Summary: 37:23"

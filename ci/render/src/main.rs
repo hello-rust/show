@@ -31,6 +31,7 @@ struct Episode {
     notes: Vec<String>,
     others: Option<Vec<String>>,
     metas: Option<Vec<String>>,
+    markers: Option<Vec<String>>,
 }
 
 /// Render episode data in many different formats, yo!

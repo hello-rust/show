@@ -1,0 +1,7 @@
+[package]
+name = "code"
+version = "0.1.0"
+authors = ["Matthias Endler <matthias-endler@gmx.net>"]
+
+[dependencies]
+ggez = "0.4.2"

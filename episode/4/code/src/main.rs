@@ -4,12 +4,12 @@ extern crate ggez;
 
 use ggez::conf;
 use ggez::event;
-use ggez::{Context, GameResult};
 use ggez::graphics;
+use ggez::{Context, GameResult};
 use std::env;
-use std::path;
 use std::fs::File;
 use std::io::Read;
+use std::path;
 
 // First we make a structure to contain the game's state
 struct MainState {
@@ -23,10 +23,10 @@ impl MainState {
     fn new(ctx: &mut Context) -> GameResult<MainState> {
         // The ttf file will be in your resources directory. Later, we
         // will mount that directory so we can omit it in the path here.
-        let font = graphics::Font::new(ctx, "/DejaVuSerif.ttf", 20)?;
+        let font = graphics::Font::new(ctx, "/font/DejaVuSerif.ttf", 20)?;
 
         let mut text = String::new();
-        let mut f = File::open("src/lib.rs")?;
+        let mut f = File::open("resources/text/wikipedia_en_keyboard.txt")?;
         f.read_to_string(&mut text);
 
         let s = MainState {
@@ -80,7 +80,7 @@ impl event::EventHandler for MainState {
         match self.text.chars().nth(self.current) {
             Some(next_char) => {
                 if next_char.to_string() == text
-                    || (next_char.is_whitespace() && text.chars().all(|| is_whitespace))
+                    || (next_char.is_whitespace() && text.chars().all(|c| c.is_whitespace()))
                 {
                     println!("We have a match {}", next_char);
                     self.current += 1;
@@ -104,6 +104,7 @@ pub fn main() {
     }
 
     let state = &mut MainState::new(ctx).unwrap();
+
     if let Err(e) = event::run(ctx, state) {
         println!("Error encountered: {}", e);
     } else {

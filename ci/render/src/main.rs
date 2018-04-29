@@ -29,8 +29,8 @@ struct Episode {
     details: String,
     keywords: Vec<String>,
     notes: Vec<String>,
-    others: Vec<String>,
-    metas: Vec<String>,
+    others: Option<Vec<String>>,
+    metas: Option<Vec<String>>,
 }
 
 /// Render episode data in many different formats, yo!
@@ -50,18 +50,21 @@ lazy_static! {
 main!(|cli: Cli| {
     let content = read_file(cli.input)?;
     let episode: Episode = serde_yaml::from_str(&content)?;
-    println!("{:?}", episode);
-
     let mut context = Context::new();
     context.add("episode", &episode);
 
-    match TEMPLATES.render("SHOW_NOTES.md", &context) {
-        Ok(s) => println!("{}", s),
-        Err(e) => {
-            println!("Error: {}", e);
-            for e in e.iter().skip(1) {
-                println!("Reason: {}", e);
-            }
-        }
-    };
+    let readme = TEMPLATES.render("SHOW_NOTES.md", &context);
+    write_to_file(
+        format!("episode/{}/README.md", episode.number),
+        &readme.expect("Cannot render README.md"),
+    );
+
+    let youtube = TEMPLATES.render("YOUTUBE.md", &context);
+    write_to_file(
+        format!("episode/{}/YOUTUBE.md", episode.number),
+        &youtube.expect("Cannot render README.md"),
+    );
+
+    let slug = TEMPLATES.render("EPISODE_LIST.md", &context);
+    println!("{}", slug.expect("Cannot render episode list entry"));
 });

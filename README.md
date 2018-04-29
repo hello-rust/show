@@ -13,10 +13,11 @@ In this repository, you find the list of previous episodes, the planned shows an
 
 ### List of episodes
 
-* [#0: **Humble Beginnings**](/episodes/0-humble-beginnings) - An introduction on what this show is about. [[Video](https://www.youtube.com/watch?v=jMJRTjnh_jo)]
-* [#1: **Hello Universe**](/episodes/1-hello-universe) - Builder Pattern, Enums, standard traits. [[Video](https://www.youtube.com/watch?v=STWuPMcwwbw)]
-* [#2: **Snakes and Gears**](/episodes/2-snakes-and-gears) - Entry API, list compreshensions, iter, filter, map, and reduce. [[Video](https://www.youtube.com/watch?v=bS5rtxWd2yQ)]
-* [#3: **Code review**](/episodes/2-code-review) - Option, Result, Error handling, URL parsing, external crates [[Video](https://www.youtube.com/watch?v=a6KWRvAPsmo)]
+* [#0: **Humble Beginnings**](/episode/0) - An introduction on what this show is about. [[Video](https://www.youtube.com/watch?v=jMJRTjnh_jo)]
+* [#1: **Hello Universe**](/episode/1) - Builder Pattern, Enums, standard traits. [[Video](https://www.youtube.com/watch?v=STWuPMcwwbw)]
+* [#2: **Snakes and Gears**](/episode/2) - Entry API, list compreshensions, iter, filter, map, and reduce. [[Video](https://www.youtube.com/watch?v=bS5rtxWd2yQ)]
+* [#3: **Code review**](/episode/3) - Option, Result, Error handling, URL parsing, external crates [[Video](https://www.youtube.com/watch?v=a6KWRvAPsmo)]
+* [#4: **Touch Typing Tutor**](/episode/4) - touch typing, application, ggez, event handling, game state, iterators, hacking, live-coding [[Video](https://www.youtube.com/watch?v=XXXXXXXXXXX)]
 
 
 ### Inspiration

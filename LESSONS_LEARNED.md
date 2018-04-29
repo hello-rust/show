@@ -18,3 +18,10 @@
   but it's very important that you stay true to yourself. If you want to revamp
   the show, just do it. Not everybody will like it, but it's your baby after
   all.
+- Invest in good gear. If you're serious about this, you will spend a LOT of
+  time in front of the screen editing text / cutting videos. It's wise to spend
+  some money on a good screen, mouse, keyboard and so on. Unfortunately, this
+  ends in a never-ending race to find the perfect gear. And it can get quite
+  expensive.
+- Rendering is still a time-sink in 2018. Plan in some time for that. I usually
+  try to render the final video over night.

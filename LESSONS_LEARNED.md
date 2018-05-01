@@ -25,3 +25,6 @@
   expensive.
 - Rendering is still a time-sink in 2018. Plan in some time for that. I usually
   try to render the final video over night.
+- Bootstrapping a YouTube channel reminds me a lot of bootstrapping a band: you
+  learn as you go and your first gigs are probably awful. This soul-seeking
+  takes a while until you find your "voice" and your audience. 

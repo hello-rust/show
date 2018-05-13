@@ -17,6 +17,7 @@ Keywords: Into trait, Pattern matching, HashMap, Stack, unreachable! macro, codi
 
 ## Things I should have mentioned (but forgot)
 
+* Thanks to @barskern who [found a major bug in the code](https://github.com/hello-rust/show/blob/master/episode/5/balanced/src/lib.rs)
 * More coding puzzles at [my Github repository](https://github.com/mre/the-coding-interview)
 
 

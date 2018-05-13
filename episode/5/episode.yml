@@ -20,6 +20,7 @@ notes:
   - "Into trait: https://doc.rust-lang.org/std/convert/trait.Into.html"
   - "Creating a Rust function that accepts String or &str: https://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html"
 others:
+  - "Thanks to @barskern who [found a major bug in the code](https://github.com/hello-rust/show/blob/master/episode/5/balanced/src/lib.rs)"
   - "More coding puzzles at [my Github repository](https://github.com/mre/the-coding-interview)"
 meta:
   - "Bavarian Seaside by [KevinMacLeod](https://soundcloud.com/kevin-9-1/bavarian-seascape)"

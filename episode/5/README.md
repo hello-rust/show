@@ -1,11 +1,11 @@
-# Episode 5 - Balanced Brackets
+# Episode 5 - Coding Challenge - Balanced Brackets
 
 Today we will do a quick interview question called "balanced brackets"
   
 I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time. In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine, to check if an input consisting of brackets has exactly one closing bracket for each opening bracket.
   
 
-[Watch now on Youtube!](https://youtu.be/xxxxxxxxxx)  
+[Watch now on Youtube!](https://youtu.be/XcuLHO8z_RA)  
 
 Keywords: Into trait, Pattern matching, HashMap, Stack, unreachable! macro, coding puzzle, competitive programming
 

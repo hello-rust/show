@@ -16,10 +16,11 @@ keywords:
   - coding puzzle
   - competitive programming
 notes:
-  - "[The Coding Interview Github repository](https://github.com/mre/the-coding-interview)"
   - "Unreachable macro: https://doc.rust-lang.org/std/macro.unreachable.html"
   - "Into trait: https://doc.rust-lang.org/std/convert/trait.Into.html"
   - "Creating a Rust function that accepts String or &str: https://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html"
+others:
+  - "More coding puzzles at [my Github repository](https://github.com/mre/the-coding-interview)"
 meta:
   - "Bavarian Seaside by [KevinMacLeod](https://soundcloud.com/kevin-9-1/bavarian-seascape)"
   - "Coin sound by [ProjectsU012](https://freesound.org/people/ProjectsU012/sounds/341695/)"

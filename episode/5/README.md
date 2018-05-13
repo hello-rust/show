@@ -11,10 +11,14 @@ Keywords: Into trait, Pattern matching, HashMap, Stack, unreachable! macro, codi
 
 ## Things I mentioned during the show
 
-* [The Coding Interview Github repository](https://github.com/mre/the-coding-interview)
 * Unreachable macro: https://doc.rust-lang.org/std/macro.unreachable.html
 * Into trait: https://doc.rust-lang.org/std/convert/trait.Into.html
 * Creating a Rust function that accepts String or &str: https://hermanradtke.com/2015/05/06/creating-a-rust-function-that-accepts-string-or-str.html
+
+## Things I should have mentioned (but forgot)
+
+* More coding puzzles at [my Github repository](https://github.com/mre/the-coding-interview)
+
 
 
 ## Support!

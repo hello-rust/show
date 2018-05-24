@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-pub fn balanced<T: Into<String>>(input: T) -> bool {
+pub fn balanced(input: impl AsRef<str>) -> bool {
     let mut stack = Vec::new();
 
     let mut matches = HashMap::new();
@@ -8,20 +8,19 @@ pub fn balanced<T: Into<String>>(input: T) -> bool {
     matches.insert(']', '[');
     matches.insert('}', '{');
 
-    for c in input.into().chars() {
+    for c in input.as_ref().chars() {
         match c {
             '(' | '[' | '{' => stack.push(c),
             ')' | ']' | '}' => {
-                let prev = stack.pop();
-                match matches.get(&c) {
-                    Some(prev) => (),
-                    _ => unreachable!(),
+                match (matches.get(&c), stack.pop()) {
+                    (Some(curr), Some(prev)) if *curr == prev => (),
+                    _ => return false,
                 }
             }
             _ => return false,
         }
     }
-    stack.len() == 0
+    stack.is_empty()
 }
 
 #[cfg(test)]
@@ -37,5 +36,11 @@ mod tests {
         assert_eq!(balanced("{()[]{}[]}"), true);
         assert_eq!(balanced("{(())[[{}]]{}[]}"), true);
         assert_eq!(balanced("{(())[[{}]]{}[]}hello"), false);
+    }
+
+    #[test]
+    fn matching_opening_closing_bracket() {
+        assert_eq!(balanced("(}"), false);
+        assert_eq!(balanced("{(())]"), false);
     }
 }

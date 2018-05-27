@@ -11,36 +11,43 @@ pub fn balanced(input: impl AsRef<str>) -> bool {
     for c in input.as_ref().chars() {
         match c {
             '(' | '[' | '{' => stack.push(c),
-            ')' | ']' | '}' => {
-                match (matches.get(&c), stack.pop()) {
-                    (Some(curr), Some(prev)) if *curr == prev => (),
-                    _ => return false,
-                }
-            }
+            ')' | ']' | '}' => match (matches.get(&c), stack.pop()) {
+                (Some(curr), Some(prev)) if *curr == prev => (),
+                _ => return false,
+            },
             _ => return false,
         }
     }
-    stack.is_empty()
+    stack.len() == 0
 }
 
 #[cfg(test)]
 mod tests {
     use super::balanced;
 
-    #[test]
-    fn it_works() {
-        assert_eq!(balanced(""), true);
-        assert_eq!(balanced("()"), true);
-        assert_eq!(balanced("("), false);
-        assert_eq!(balanced("()[]{}"), true);
-        assert_eq!(balanced("{()[]{}[]}"), true);
-        assert_eq!(balanced("{(())[[{}]]{}[]}"), true);
-        assert_eq!(balanced("{(())[[{}]]{}[]}hello"), false);
+    macro_rules! parameterized {
+        ($($name:ident: $value:expr,)*) => {
+            $(
+                #[test]
+                fn $name() {
+                    let (input, expected) = $value;
+                    assert_eq!(expected, balanced(input));
+                }
+            )*
+        }
     }
 
-    #[test]
-    fn matching_opening_closing_bracket() {
-        assert_eq!(balanced("(}"), false);
-        assert_eq!(balanced("{(())]"), false);
+    parameterized! {
+        empty: ("", true),
+        simple_parenthesis: ("()", true),
+        multiple_brackets: ("()[]{}", true),
+        nested_brackets: ("{()[]{}[]}", true),
     }
+
+    parameterized! {
+        missing_close: ("(", false),
+        missing_open: (")", false),
+        non_bracket_input: ("{(())[[{}]]{}[]}hello", false),
+    }
+
 }

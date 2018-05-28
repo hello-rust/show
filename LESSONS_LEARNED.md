@@ -20,6 +20,8 @@
   tiny disk. In the long run, I will have to invest in better hardware, which I
   haven't done in a while because Computers are reasonably fast for most task
   today - not so for recording.
+- [Lighting](https://www.youtube.com/watch?v=eZ5hpcn6tIM) is also a rabbit hole
+  and so is audio.
 - It's tempting to arrange the show like your viewers presumably want it to be,
   but it's very important that you stay true to yourself. If you want to revamp
   the show, just do it. Not everybody will like it, but it's your personal

@@ -11,9 +11,8 @@ pub fn balanced(input: impl AsRef<str>) -> bool {
     for c in input.as_ref().chars() {
         match c {
             '(' | '[' | '{' => stack.push(c),
-            ')' | ']' | '}' => match (matches.get(&c), stack.pop()) {
-                (Some(curr), Some(prev)) if *curr == prev => (),
-                _ => return false,
+            ')' | ']' | '}' => if matches.get(&c) != stack.pop().as_ref() {
+                return false;
             },
             _ => return false,
         }

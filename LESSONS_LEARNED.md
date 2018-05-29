@@ -43,6 +43,35 @@
   but it's very important that you stay true to yourself. If you want to revamp
   the show, just do it. Not everybody will like it, but it's your personal
   project and your freetime after all.
+- In the beginning, it was hard to let my personality show through. I'm usually
+  a very enthusiastic person, especially when it talking about programming, but
+  in the videos it sometimes looked dull. Some people even commented that it was
+  "painful to watch". It took me a while to figure out what was the reason. What
+  helped me was looking at other people to learn their tricks on how to loosen
+  things up.
+
+  * [Peter McKinnon](https://www.youtube.com/user/petermckinnon24) is a
+    charismatic storyteller. That's the level of enthusiasm I'd like to show.
+    He's using a ton of b-roll to support his narrative.
+  * The background music in [Hot
+    Ones](https://www.youtube.com/user/FirstWeFeast) is top-notch. It really
+    creates a thick atmosphere.
+  * The audio and video set-up of Masterclass is second to none. Just watch a
+    trailer of [Chris Hadfield's masterclass on space
+    exploration](https://www.masterclass.com/classes/chris-hadfield-teaches-space-exploration)
+    to get a glimpse of that.
+
+  I realize that not many programming channels think so much about delivery, but
+  that's one of the core parts of how I convey knowledge. My main goal is to
+  inspire and entertain people.
+
+
+  What I learned from them is that  music is pretty important (pizzicanto works
+  good for my clumsy style), b-roll is quite cool (e.g. showing the website of a
+  project while I talk about it), camera movements and zooms also work well.
+  Sometimes I wish I had a dedicated camera-person to make that part easier. In
+  the long run, I guess I'll have a second camera to record my hands and
+  keyboard.
 
 ### Technique
 

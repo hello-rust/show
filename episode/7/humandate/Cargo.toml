@@ -1,0 +1,7 @@
+[package]
+name = "humandate"
+version = "0.1.0"
+authors = ["Matthias Endler <matthias-endler@gmx.net>"]
+
+[dependencies]
+chrono = "0.4.2"

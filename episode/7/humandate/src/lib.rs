@@ -33,7 +33,7 @@ fn match_month(month: impl AsRef<str>) -> u32 {
         "September" => 9,
         "October" => 10,
         "November" => 11,
-        "Dezember" => 12,
+        "December" => 12,
         _ => unreachable!(),
     }
 }
@@ -91,6 +91,7 @@ mod test {
     #[test]
     fn parses_date_back_to_original(y in 0i32..10000,
                                     m in 1u32..13, d in 1u32..32) {
+        println!("y = {}, m = {}, d = {}", y, m, d);
         let month = match m {
             1 => "January",
             2 => "February",
@@ -103,7 +104,7 @@ mod test {
             9 => "September",
             10 => "October",
             11 => "November",
-            12 => "Decemeber",
+            12 => "December",
             _ => unreachable!(),
         };
 

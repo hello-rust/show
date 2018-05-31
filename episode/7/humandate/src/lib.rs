@@ -48,7 +48,6 @@ pub fn parse(humandate: impl AsRef<str>) -> Result<chrono::NaiveDate, Error> {
 
     // Avoid chrono panic: 'No such local time'
     // see chrono/src/offset/mod.rs:145:34
-
     NaiveDate::from_ymd_opt(year, month, day).ok_or(Error::InvalidDate)
 }
 

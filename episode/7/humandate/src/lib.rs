@@ -5,23 +5,24 @@ use std::num::ParseIntError;
 
 #[derive(Debug, PartialEq)]
 pub enum Error {
-    ParseError,
+    Parse,
+    InvalidDate,
 }
 
 impl From<ParseIntError> for Error {
     fn from(_e: ParseIntError) -> Error {
-        Error::ParseError
+        Error::Parse
     }
 }
 
-pub fn parse(humandate: impl AsRef<str>) -> Result<chrono::Date<Utc>, Error> {
+pub fn parse(humandate: impl AsRef<str>) -> Result<chrono::NaiveDate, Error> {
     let parts: Vec<String> = humandate
         .as_ref()
         .split_whitespace()
         .map(String::from)
         .collect();
     if parts.len() != 4 {
-        return Err(Error::ParseError);
+        return Err(Error::Parse);
     }
     let day_human = &parts[0];
     let month_human = &parts[2];
@@ -48,7 +49,7 @@ pub fn parse(humandate: impl AsRef<str>) -> Result<chrono::Date<Utc>, Error> {
     // Avoid chrono panic: 'No such local time'
     // see chrono/src/offset/mod.rs:145:34
 
-    Ok(Utc.ymd(year, month, day))
+    NaiveDate::from_ymd_opt(year, month, day).ok_or(Error::InvalidDate)
 }
 
 #[cfg(test)]
@@ -57,11 +58,14 @@ mod test {
 
     #[test]
     fn test_valid() {
-        assert_eq!(parse("15th of May 2015"), Ok(Utc.ymd(2015, 5, 15)));
+        assert_eq!(
+            parse("15th of May 2015"),
+            Ok(NaiveDate::from_ymd(2015, 5, 15))
+        );
     }
 
     #[test]
     fn test_invalid() {
-        assert_eq!(parse("50th of May 2015"), Err(Error::ParseError));
+        assert_eq!(parse("50th of May 2015"), Err(Error::InvalidDate));
     }
 }

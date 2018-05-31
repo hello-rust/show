@@ -80,7 +80,7 @@ mod test {
         }
 
         #[test]
-        fn parses_all_valid_dates(ref s in "([0-2](1st|2nd|3rd|[4-9]th)|10th|20th|30th|31st) of (January) [0-9]{4}") {
+        fn parses_all_valid_dates(ref s in "([0-2](1st|2nd|3rd|[4-9]th)|10th|20th|30th|31st) of (January) -?(0|[1-9][0-9]{4})") {
             parse(s).unwrap();
         }
     }

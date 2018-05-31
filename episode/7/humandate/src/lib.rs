@@ -114,8 +114,8 @@ mod test {
             3 => "rd",
             _ => "th",
         };
-        let date = parse(&format!("{:02}{} of {} {:02}", d, suffix, month, y)).unwrap();
-        prop_assert_eq!((y, m, d), (date.year(), date.month(), date.day()));
+        let date = parse(&format!("{:02}{} of {} {:02}", d, suffix, month, y));
+        prop_assert_eq!(NaiveDate::from_ymd_opt(y, m, d).ok_or(Error::InvalidDate), date);
     }
     }
 }

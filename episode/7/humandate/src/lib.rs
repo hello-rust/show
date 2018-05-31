@@ -1,4 +1,9 @@
+#[cfg(test)]
+#[macro_use]
+extern crate proptest;
+
 extern crate chrono;
+
 use chrono::prelude::*;
 use std::convert::From;
 use std::num::ParseIntError;
@@ -66,5 +71,12 @@ mod test {
     #[test]
     fn test_invalid() {
         assert_eq!(parse("50th of May 2015"), Err(Error::InvalidDate));
+    }
+
+    proptest! {
+        #[test]
+        fn doesnt_crash(ref s in "\\PC*") {
+            parse(s);
+        }
     }
 }

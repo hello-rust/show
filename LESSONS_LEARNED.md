@@ -34,6 +34,20 @@
   Therefore, a script is vital. I keep track of the things I absolutely have to
   say during the episode, but no word-by-word instructions.
 
+### Simple tips 
+
+- Metadata is quite important for people: one person suggested to add keywords
+  to the end of the title to improve discovery on YouTube. That was a great
+  idea! People rarely search for the show directly, but instead they find it
+  through keywoards.
+- Similarly, people were frustrated about the flow of the show: some people said
+  I was rushing over some topics, others thought that it was dragging along.
+  What I did was adding a lot more links entry-level topics for onboarding
+  beginners and adding markers to the videos so that people could jump to the
+  interesting bits right away. Similarly, I suggest to watch the videos at 1.5x
+  the speed if you feel bored. That's a nice difference to live-coding where
+  you're kind of stuck with one pace.
+
 ### About finding your voice
 
 - Bootstrapping a YouTube channel reminds me a lot of bootstrapping a band: you

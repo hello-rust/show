@@ -39,7 +39,7 @@
 - Metadata is quite important for people: one person suggested to add keywords
   to the end of the title to improve discovery on YouTube. That was a great
   idea! People rarely search for the show directly, but instead they find it
-  through keywoards.
+  through keywords.
 - Similarly, people were frustrated about the flow of the show: some people said
   I was rushing over some topics, others thought that it was dragging along.
   What I did was adding a lot more links entry-level topics for onboarding

@@ -1,0 +1,13 @@
+number: 7
+title: Testing with Proptest
+url: https://youtu.be/XXXXXXXXXXX
+intro: Testing is hard as can be seen in my last episode. That's why I looked around for better, automated solutions.
+details: >
+      We will take a look at proptest, a library for automatically generating testcases similar to quicktest.
+keywords:
+  - Proptest
+  - Unit testing
+  - Fuzzy testing
+notes:
+meta:
+markers:

@@ -1,0 +1,12 @@
+number: 8
+title: Writing an uptime monitor using actix-web
+url: https://youtu.be/XXXXXXXXXXX
+intro: Actix-web is the new kid on the block in the Rust web-framework ecosystem. We take a closer look by writing an uptime-monitoring tool.
+details: >
+      Actix-web is a modern Rust web-framework running on stable Rust.
+keywords:
+  - Actix
+notes:
+  - "Commercial services include [uptimerobot.com](https://uptimerobot.com/) and [pingdom](https://www.pingdom.com/)"
+meta:
+markers:

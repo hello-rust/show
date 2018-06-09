@@ -20,8 +20,8 @@ impl From<ParseIntError> for Error {
     }
 }
 
-fn match_month(month: impl AsRef<str>) -> u32 {
-    match month.as_ref() {
+fn numeric_month(month: impl AsRef<str>) -> Option<u32> {
+    let num = match month.as_ref() {
         "January" => 1,
         "February" => 2,
         "March" => 3,
@@ -34,8 +34,9 @@ fn match_month(month: impl AsRef<str>) -> u32 {
         "October" => 10,
         "November" => 11,
         "December" => 12,
-        _ => unreachable!(),
-    }
+        _ => return None,
+    };
+    Some(num)
 }
 
 pub fn parse(humandate: impl AsRef<str>) -> Result<chrono::NaiveDate, Error> {
@@ -48,12 +49,18 @@ pub fn parse(humandate: impl AsRef<str>) -> Result<chrono::NaiveDate, Error> {
         return Err(Error::Parse);
     }
     let day_human = &parts[0];
+    if day_human.len() != 4 {
+        return Err(Error::Parse);
+    }
     let month_human = &parts[2];
     let year = parts[3].parse::<i32>()?;
     let (day_str, _suffix) = day_human.split_at(2);
 
     let day = day_str.parse::<u32>()?;
-    let month = match_month(month_human);
+    let month = match numeric_month(month_human) {
+        Some(val) => val,
+        None => return Err(Error::Parse),
+    };
 
     // Avoid chrono panic: 'No such local time'
     // see chrono/src/offset/mod.rs:145:34
@@ -81,6 +88,11 @@ mod test {
     #[test]
     fn doesnt_crash(ref s in "\\PC*") {
         parse(s);
+    }
+
+    #[test]
+    fn handles_invalid_words(ref s in "([0-9a-z]{1,5} ){3}[0-9a-z]{1,5}") {
+        let _ = parse(s);
     }
 
     #[test]

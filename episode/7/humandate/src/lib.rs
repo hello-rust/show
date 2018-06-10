@@ -40,11 +40,7 @@ fn numeric_month(month: impl AsRef<str>) -> Option<u32> {
 }
 
 pub fn parse(humandate: impl AsRef<str>) -> Result<chrono::NaiveDate, Error> {
-    let parts: Vec<String> = humandate
-        .as_ref()
-        .split_whitespace()
-        .map(String::from)
-        .collect();
+    let parts: Vec<&str> = humandate.as_ref().split_whitespace().collect();
     if parts.len() != 4 {
         return Err(Error::Parse);
     }
@@ -77,6 +73,10 @@ mod test {
             parse("15th of May 2015"),
             Ok(NaiveDate::from_ymd(2015, 5, 15))
         );
+        assert_eq!(
+            parse("2nd of May 2015"),
+            Ok(NaiveDate::from_ymd(2015, 5, 2))
+        );
     }
 
     #[test]
@@ -103,31 +103,31 @@ mod test {
     #[test]
     fn parses_date_back_to_original(y in 0i32..10000,
                                     m in 1u32..13, d in 1u32..32) {
-        println!("y = {}, m = {}, d = {}", y, m, d);
-        let month = match m {
-            1 => "January",
-            2 => "February",
-            3 => "March",
-            4 => "April",
-            5 => "May",
-            6 => "June",
-            7 => "July",
-            8 => "August",
-            9 => "September",
-            10 => "October",
-            11 => "November",
-            12 => "December",
-            _ => unreachable!(),
-        };
+            println!("y = {}, m = {}, d = {}", y, m, d);
+            let month = match m {
+                1 => "January",
+                2 => "February",
+                3 => "March",
+                4 => "April",
+                5 => "May",
+                6 => "June",
+                7 => "July",
+                8 => "August",
+                9 => "September",
+                10 => "October",
+                11 => "November",
+                12 => "December",
+                _ => unreachable!(),
+            };
 
-        let suffix = match d {
-            1 => "st",
-            2 => "nd",
-            3 => "rd",
-            _ => "th",
-        };
-        let date = parse(&format!("{:02}{} of {} {:02}", d, suffix, month, y));
-        prop_assert_eq!(NaiveDate::from_ymd_opt(y, m, d).ok_or(Error::InvalidDate), date);
-    }
+            let suffix = match d {
+                1 => "st",
+                2 => "nd",
+                3 => "rd",
+                _ => "th",
+            };
+            let date = parse(&format!("{:02}{} of {} {:02}", d, suffix, month, y));
+            prop_assert_eq!(NaiveDate::from_ymd_opt(y, m, d).ok_or(Error::InvalidDate), date);
+        }
     }
 }

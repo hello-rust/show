@@ -20,6 +20,7 @@ In this repository, you find the list of previous episodes, the planned shows an
 * [#4: **Touch Typing Tutor**](/episode/4) - touch typing, application, ggez, event handling, game state, iterators, hacking, live-coding [[Video](https://youtu.be/S0Vubd-C5-o)]
 * [#5: **Coding Challenge - Balanced Brackets**](/episode/5) - Into trait, Pattern matching, HashMap, Stack, unreachable! macro, coding puzzle, competitive programming [[Video](https://youtu.be/XcuLHO8z_RA)]
 * [#6: **Parameterized Tests, Macros, And Refactoring**](/episode/6) - Test data providers, Parameterized tests, AsRef trait, Macros [[Video](https://youtu.be/XJPci7GI-qg)]
+* [#7: **Parsing Informal English Dates Using Proptest And Tdd**](/episode/7) - TDD, Proptest, Quickcheck, Unit testing, Fuzzy testing [[Video](https://youtu.be/XXXXXXXXXXX)]
 
 ### Inspiration
 

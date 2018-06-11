@@ -1,12 +1,12 @@
-# Episode 7 - Parsing Informal English Dates Using Proptest And Tdd
+# Episode 7 - Parsing Dates Using Proptest And Tdd
 
-Testing is hard as - can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.  
+Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.  
 Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame). We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
   
 
 [Watch now on Youtube!](https://youtu.be/XXXXXXXXXXX)  
 
-Keywords: TDD, Proptest, Quickcheck, Unit testing, Fuzzy testing
+Keywords: Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD
 
 ## Things I mentioned during the show
 

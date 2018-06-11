@@ -1,0 +1,1 @@
+Hello Rust! #{{ episode.number }} - {{ episode.title }} ({{ episode.keywords | slice(end=3) | join(sep=", ") }})

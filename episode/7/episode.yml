@@ -1,16 +1,16 @@
 number: 7
-title: Parsing informal english dates using Proptest and TDD
+title: Parsing dates using proptest and TDD
 url: https://youtu.be/XXXXXXXXXXX
 intro: Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.
 details: >
       Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame).
       We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
 keywords:
-  - TDD
   - Property testing
   - Quickcheck
   - Unit testing
   - Fuzzy testing
+  - TDD
 notes:
   - "[Proptest](https://github.com/AltSysrq/proptest) crate by Jason Lingle"
   - "[Quickcheck crate for Rust](https://github.com/BurntSushi/quickcheck) by Andrew Gallant"

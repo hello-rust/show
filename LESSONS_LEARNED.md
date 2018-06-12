@@ -1,6 +1,9 @@
 ### Lessons learned the hard way
 
 - Always double check the final rendered video for hickups before uploading.
+- Check the final upload as well. The [video speed controller chrome
+  plugin](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)
+  helps a lot with screening.
 - Video assets are huuuge. A typical episode takes hundreds of gigabytes of
   render files. To edit efficiently, I have to squeeze out every byte from my
   tiny disk. In the long run, I will have to invest in better hardware, which I

@@ -1,0 +1,15 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+xs 1238787609 3701346337 1866156833 2552989754 # shrinks to ref s = "0000-00-00"
+xs 3051926889 1888815014 1768961892 1774011593 # shrinks to ref s = "32st of January 0000"
+xs 1567262811 3345674159 1529742834 2184172309 # shrinks to ref s = "32nd of January 0000"
+xs 371479063 2971829295 1122913582 4135108498 # shrinks to ref s = "00th of January 0000"
+xs 3009340268 1481089089 960167167 3150609670 # shrinks to ref s = "29th of February 0001"
+xs 850268817 262905739 3306983655 288823461 # shrinks to ref s = "01st of January 262144"
+xs 574876970 2382342463 1169404200 4175189671 # shrinks to y = 0, m = 9, d = 31
+xs 2826456505 1944994900 3866608525 3712069189 # shrinks to ref s = "a a a 0"
+xs 1453637732 1480878277 2002291066 1751998472 # shrinks to ref s = "0000 a a 0"

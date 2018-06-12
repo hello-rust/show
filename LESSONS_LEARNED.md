@@ -19,20 +19,29 @@
 - If I have a long block of uncut material, it's probably not because there are
   no hickups, but because I forgot to edit that.
 
+### Things I did right
+
+- Adding features as I go: for example I had to manually format the show notes.
+  Seeing that this took so much time I wrote a small CLI tool to render it from
+  a yaml file. Over time I added more output formats for the same content:
+  YouTube, Twitter, the `README` and so on. The important part is that I did
+  that piece by piece of many episodes instead of doing lots of work up-front.
+
+
 ### Consistency
 
 - Doing a single episode takes me *ages*. I would never have thought it takes so
   much time. Here's a rough timetable:
   * Topic preparation (2-5 hours)
   * Audio/Video setup (30min-1h)
-  * Recording (1h-2h)
+  * Recording (1h-5h)
   * Writing show notes (30min)
   * Editing (10-20h)
   * Publication (1h).
   * Creating a title image (15min)
   * Updating the website (15min)
   * Sharing on social media (15min)
-  * Answering questions, reading feedback (15min)
+  * Feedback and questions (15min)
 
 - It's pretty easy to find excuses for skipping an episode: live gets in the
   way, there's more important stuff to do, the content doesn't feel just right

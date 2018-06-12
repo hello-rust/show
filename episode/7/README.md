@@ -4,7 +4,7 @@ Testing is hard, as can be seen in the last two episodes. That's why I looked ar
 Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame). We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
   
 
-[Watch now on Youtube!](https://youtu.be/XXXXXXXXXXX)  
+[Watch now on Youtube!](https://youtu.be/zb7SD0Jco6g)  
 
 Keywords: Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD
 

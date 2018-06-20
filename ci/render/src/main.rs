@@ -62,8 +62,20 @@ main!(|cli: Cli| {
 
     let youtube = TEMPLATES.render("YOUTUBE.md", &context);
     write_to_file(
-        format!("episode/{}/YOUTUBE.md", episode.number),
-        &youtube.expect("Cannot render README.md"),
+        format!("episode/{}/meta/YOUTUBE.md", episode.number),
+        &youtube.expect("Cannot render YouTube description"),
+    );
+
+    let youtube_title = TEMPLATES.render("YOUTUBE_TITLE.md", &context);
+    write_to_file(
+        format!("episode/{}/meta/YOUTUBE_TITLE.md", episode.number),
+        &youtube_title.expect("Cannot render YouTube title"),
+    );
+
+    let tweet = TEMPLATES.render("TWEET.md", &context);
+    write_to_file(
+        format!("episode/{}/meta/TWEET.md", episode.number),
+        &tweet.expect("Cannot render tweet"),
     );
 
     let slug = TEMPLATES.render("EPISODE_LIST.md", &context);

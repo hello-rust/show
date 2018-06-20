@@ -1,0 +1,14 @@
+[package]
+name = "lenrs"
+version = "0.1.0"
+authors = ["Matthias Endler <matthias-endler@gmx.net>"]
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.2.7"
+default-features = false
+
+[lib]
+crate-type = ["cdylib"]
+name = "lenrs"

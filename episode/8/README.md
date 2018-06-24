@@ -20,6 +20,7 @@ Keywords: Tutorial, FFI, pyo3, Module, Extension, Python
 
 ## Meta
 
+* Visual Studio Code Theme: Monokai
 * B-Roll: Computer And The Mind Of Man Pt 3, The Universal Machine: https://archive.org/details/ComputerAndTheMindOfManP3TheUniversalMachine.
 * Radio static by LimitSnap_Creations: https://freesound.org/people/LimitSnap_Creations/sounds/279003/.
 * silent movie 0M_34pi by Setuniman: https://freesound.org/people/Setuniman/sounds/153470/.

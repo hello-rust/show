@@ -1,4 +1,4 @@
- ![Hello Rust Show logo](hello-rust.png)
+ ![Hello Rust Show logo](logo.png)
 
 This is the main repository of *Hello Rust*,  
 a live-coding show by [Matthias Endler](@mre) about the Rust programming language.  

@@ -1,5 +1,7 @@
 # Episode 7 - Parsing Dates Using Proptest And Tdd
 
+![YouTube video thumbnail](./thumb.jpg)
+
 Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.  
 Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame). We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
   
@@ -14,6 +16,14 @@ Keywords: Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD
 * [Quickcheck crate for Rust](https://github.com/BurntSushi/quickcheck) by Andrew Gallant
 * [History of quickcheck](https://en.wikipedia.org/wiki/QuickCheck)
 * [Chrono english crate](https://github.com/stevedonovan/chrono-english) by Steve J Donovan
+
+## Meta
+
+* I prefer to use `ok_or_else` as `ok_or` evaluates eagerly and [might get deprecated](https://github.com/rust-lang/rust/issues/51292)
+* Pizzicato by Setuniman: https://freesound.org/people/Setuniman/sounds/149827/
+* Lynx pizzicanto by filmistro: https://filmstro.com/music/pizzicato-strings
+* Bug image: https://www.freepik.com/free-vector/funny-insects-icon-set_1488662.htm#term=bug&page=1&position=9
+
 
 
 ## Support!

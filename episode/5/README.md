@@ -1,5 +1,7 @@
 # Episode 5 - Coding Challenge - Balanced Brackets
 
+![YouTube video thumbnail](./thumb.jpg)
+
 Today we will do a quick interview question called "balanced brackets"
   
 I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time. In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine, to check if an input consisting of brackets has exactly one closing bracket for each opening bracket.
@@ -19,6 +21,14 @@ Keywords: Into trait, Pattern matching, HashMap, Stack, unreachable! macro, codi
 
 * Thanks to @barskern who [found a major bug in the code](https://github.com/hello-rust/show/blob/master/episode/5/balanced/src/lib.rs)
 * More coding puzzles at [my Github repository](https://github.com/mre/the-coding-interview)
+
+
+## Meta
+
+* Bavarian Seaside by [KevinMacLeod](https://soundcloud.com/kevin-9-1/bavarian-seascape)
+* Coin sound by [ProjectsU012](https://freesound.org/people/ProjectsU012/sounds/341695/)
+* Blip sound by [ProjectsU012](https://freesound.org/people/ProjectsU012/sounds/341024/)
+* Mystery sound by [FoolBoyMedia](https://freesound.org/people/FoolBoyMedia/sounds/256099/#)
 
 
 

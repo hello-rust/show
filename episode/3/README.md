@@ -1,5 +1,7 @@
 # Episode 3 - A Code Review
 
+![YouTube video thumbnail](./thumb.jpg)
+
 Today we will do our first code review. 
   
 I picked a library from my colleague [Luca Pizzamiglio](https://github.com/pizzamig/) called [repoctl](https://github.com/pizzamig/repoctl), which is a tool for handling FreeBSD package files in Rust. The goal is to improve the codebase and make it more robust and idiomatic.
@@ -38,7 +40,7 @@ Keywords: Option, Result, Error handling, URL parsing, external crates
 
 ## Support!
 
-If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw).  
+If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) 😊.
 You will not regret this, I guess.
 If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/hellorust).  
 Thank you very much for considering a donation - no matter the amount.

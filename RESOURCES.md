@@ -6,3 +6,8 @@
 * https://incompetech.com/music/royalty-free/
 * https://icons8.com/music/
 * http://www.mobygratis.com/
+* http://fesliyanstudios.com/
+
+### Video
+
+* https://veed.me/blog/14-fantastically-free-sources-for-stock-video-footage/

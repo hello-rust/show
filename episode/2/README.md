@@ -1,5 +1,7 @@
 # Episode 2 - Snakes And Gears
 
+![YouTube video thumbnail](./thumb.jpg)
+
 Let's talk about Python and Rust. I used to do a lot more Python than I do now, but I still love it for its beauty.  
   
 One of the first things I was missing in Rust when coming from Python were List Comprehensions.   It took me a while to figure out, that the Rust way - using iter(), filter(), and map() - actually is a better fit for the language.   I want to show you how to port Rust list comprehensions to Rust.
@@ -29,7 +31,7 @@ Keywords: iterators, map, filter, Entry API, List comprehensions
 
 ## Support!
 
-If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw).  
+If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) 😊.
 You will not regret this, I guess.
 If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/hellorust).  
 Thank you very much for considering a donation - no matter the amount.

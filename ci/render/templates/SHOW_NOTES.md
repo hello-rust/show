@@ -1,5 +1,7 @@
 # Episode {{ episode.number }} - {{ episode.title | title }}
 
+![YouTube video thumbnail](./thumb.jpg)
+
 {{ episode.intro }}  
 {{ episode.details }}  
 

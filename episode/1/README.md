@@ -1,9 +1,15 @@
 # Episode 1 - Hello Universe
 
-This is the very first episode of "Hello Rust!". I'm so excited!
+![YouTube video thumbnail](./thumb.jpg)
 
-It is my lighthearted journey to become a fearless, more effective Rust programmer. And you can be part, too!
-My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun.
+This is the very first real coding episode of "Hello Rust!".
+  
+Today we will write *hello world*, but by leveraging the builder pattern to support different languages (hence the title "Hello Universe").
+  
+
+[Watch now on Youtube!](https://www.youtube.com/watch?v=STWuPMcwwbw)  
+
+Keywords: default trait, debug trait, builder pattern
 
 ## Things I mentioned during the show
 
@@ -15,12 +21,16 @@ My goal is to address beginner and intermediate Rust questions and show that sys
 
 * [Test organization using `super::*`](https://doc.rust-lang.org/book/second-edition/ch11-03-test-organization.html)
 
+
 ## Meta
 
-Colorscheme: [1337](https://github.com/MarkMichos/1337-Scheme)
+* Colorscheme: [1337](https://github.com/MarkMichos/1337-Scheme)
+
+
 
 ## Support!
 
-If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw).  
+If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) 😊.
 You will not regret this, I guess.
-If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/hellorust).
+If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/hellorust).  
+Thank you very much for considering a donation - no matter the amount.

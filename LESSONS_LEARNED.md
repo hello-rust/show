@@ -21,6 +21,14 @@
   time???").
 - If I have a long block of uncut material, it's probably not because there are
   no hickups, but because I forgot to edit that.
+- Never let the recording equipment get in the way of your ideas. In other
+  words: shoot with what you have. I wanted a second camera but didn't want to
+  spend a lot of money on it. So I just use an old webcam for now. The quality
+  might not be perfect, but it's still better than not having it. I'm also
+  shooting alone and sometimes I would love to have somebody zoom into a scene
+  when I explain things. For now I'm simply emulating this effect in my Video
+  editor using crops or a Ken Burns effect. This will dilute the recording
+  quality a bit, but it adds so much depth and liveness.
 
 ### Things I did right
 

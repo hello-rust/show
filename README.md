@@ -1,15 +1,20 @@
  ![Hello Rust Show logo](logo.png)
 
-This is the main repository of *Hello Rust*,  
-a live-coding show by [Matthias Endler](@mre) about the Rust programming language.  
+* [YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw)
+* [Homepage](https://hello-rust.show)
+* [Patreon](https://www.patreon.com/hellorust)
+* [Twitter](https://twitter.com/hellorustshow)
+* [Show notes](https://github.com/hello-rust/show/tree/master/episode)
+
+This is the main repository of *Hello Rust*, a live-coding show by [Matthias Endler](@mre) about the Rust programming language.  
 It is targeted towards intermediate Rust programmers, who have already read [the book](https://doc.rust-lang.org/book/) and want to learn advanced patterns and tricks as well as how to write ergonomic code in Rust.
 
 In this repository, you find the list of previous episodes, the planned shows and the show notes.
 
 ### How to support me
 
-**If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).**  
-**If you want to donate some money for a good cause, [become a patron](https://www.patreon.com/hellorust).**
+[**Become a patron**](https://www.patreon.com/hellorust) and earn a special place in my heart &mdash; forever. ❤️  
+If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 
 ### List of episodes
 
@@ -25,7 +30,7 @@ In this repository, you find the list of previous episodes, the planned shows an
 
 ### Inspiration
 
-These shows inspired me to make this:
+These YouTube channels inspired me to make this:
 
 * [Ferris Streams Stuff](https://www.youtube.com/channel/UC4mpLlHn0FOekNg05yCnkzQ)
 * [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
@@ -46,6 +51,7 @@ Also, I thought it might be interesting to others, who also consider to run thei
 * Cleanup SD card of digital camera
 * Prepare lighting
 * Set-up microphone
+* Prepare primary and secondary camera
 * Test recording and audio
 * Close all unrelated apps
 * Hide Bookmarks Toolbar in Firefox (right-click next to address bar and remove tick)
@@ -53,37 +59,37 @@ Also, I thought it might be interesting to others, who also consider to run thei
   - Set slightly bigger font (VS Code: `editor.fontSize": 15`)
   - ~~Enter "zen mode"~~ (doesn't show the terminal)
 * Set Mac to *do not disturb mode*
-* Get cracking!
+* Deactivate night shift
+* Start recording and get cracking!
 
 ### Shooting the intro
 
-* Create a teaser intro that shows exactly what to expect as an outcome (show some code, too).
+* Create a teaser intro that shows exactly what to expect as an outcome (show some code as b-roll, maybe).
 
 ### Postproduction
 
 1. Cut video
-2. Normalize sound
-3. Add music
-4. Color Grading
+2. Transitions
+3. Normalize sound
+4. Add music and sound effects
+5. Color Grading
 
 #### Before publication
 
 * Create nice title images for the video and the website.
 
+### Upload
+
+When uploading the video, I first set it to "unlisted".
+That gives me another opportunity to check the quality and the editing of the final cut.
+At this phase, I also add show notes to the video description, adjust the title
+and add time markers to the video description.
+
 #### Publication
 
-1. [Github](https://github.com/hello-rust/show) (Show notes, plus link in `README`)
-2. [Homepage](https://hello-rust.show)
-3. [Patreon](https://www.patreon.com/hellorust)
-4. [YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw)
-5. [Twitter](https://twitter.com/hellorustshow)
-6. [Reddit](https://www.reddit.com/r/rust/)
-
-#### After publication
-
-* Add show notes to the video description.
-* Optional: Add time markers to the video description.
-* ~~Charge camera battery for next shoot.~~ (I bought an external power adapter)
+* Upload the code to Github.
+* Set YouTube video to "public".
+* Announce publication on Twitter and Reddit.
 
 ### FAQ
 
@@ -103,6 +109,20 @@ Therefore, I might try this setup in the future.
 
 **Q: What font are you using?**  
 **A:** Operator Sans Mono
+
+**Q: How long does it take to create one episode?**  
+**A:** Around 30 hours. Here's a breakdown of the process:
+* Preparation time: 5 hours
+* Creating a prototype for the code I'd like to show: 2-5 hours
+* Prepare office for recording: 30min
+* Recording: 2-4 hours
+* Editing: 12-16 hours
+* Publication: 2 hours
+
+My hope is to get faster with more practice. Especially the editing is still
+painful, although I've gotten much better already. Publication could also mostly
+be done automatically and I wrote some tooling to help me with that (see `ci`
+folder).
 
 ### Credits
 

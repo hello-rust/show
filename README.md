@@ -9,7 +9,7 @@ In this repository, you find the list of previous episodes, the planned shows an
 
 ### How to support me
 
-[**Become a patron**](https://www.patreon.com/hellorust) and earn a special place in my heart &mdash; forever. ❤️  
+[**Become a patron**](https://www.patreon.com/bePatron?c=1568097) and earn a special place in my heart &mdash; forever. ❤️  
 If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 
 ### List of episodes

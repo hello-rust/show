@@ -25,4 +25,4 @@ WEBSITE: http://hello-rust.show/
 GITHUB: https://github.com/hello-rust/show  
 TWITTER: https://twitter.com/hellorustshow  
 
-💖 Support the show by becoming a patron at https://www.patreon.com/hellorust
+💖 Support the show by becoming a patron at https://www.patreon.com/bePatron?c=1568097

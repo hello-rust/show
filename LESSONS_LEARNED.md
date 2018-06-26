@@ -1,7 +1,7 @@
 ### Lessons learned the hard way
 
-- Always double check the final rendered video for hickups before uploading.
-- Check the final upload as well. The [video speed controller chrome
+- Always double check the final rendered video for hickups before publishing.
+  The [video speed controller chrome
   plugin](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)
   helps a lot with screening.
 - Video assets are huuuge. A typical episode takes hundreds of gigabytes of
@@ -19,9 +19,9 @@
   be tricky, as you might only discover your mistake minutes later and leaving
   it in might confuse or even frustrate your viewers ("why do you waste my
   time???").
-- If I have a long block of uncut material, it's probably not because there are
-  no hickups, but because I forgot to edit that.
-- Never let the recording equipment get in the way of your ideas. In other
+- If I have a long block of uncut material in my video editor, it's probably not
+  because there are no hickups, but because I forgot to edit that.
+- Never let the recording equipment get in the way of the narrative. In other
   words: shoot with what you have. I wanted a second camera but didn't want to
   spend a lot of money on it. So I just use an old webcam for now. The quality
   might not be perfect, but it's still better than not having it. I'm also
@@ -32,11 +32,11 @@
 
 ### Things I did right
 
-- Adding features as I go: for example I had to manually format the show notes.
-  Seeing that this took so much time I wrote a small CLI tool to render it from
-  a yaml file. Over time I added more output formats for the same content:
+- Adding features as I go: for example in the beginning I manually formatted the show notes.
+  Seeing that this took so much time, I wrote a small CLI tool to render it from
+  a YAML file. Over time, I added more output formats for the same content:
   YouTube, Twitter, the `README` and so on. The important part is that I did
-  that piece by piece of many episodes instead of doing lots of work up-front.
+  that over the course of many episodes instead of doing lots of work up-front.
 
 
 ### Consistency
@@ -69,7 +69,6 @@
   [freemusicarchive](freemusicarchive.org/), although it's not the most
   convenient to use.
 
-
 ### Simple tips 
 
 - Metadata is quite important to people: one person suggested to add keywords
@@ -83,22 +82,26 @@
   interesting bits right away. Similarly, I suggest to watch the videos at 1.5x
   the speed if you feel bored. That's a nice variation to live-coding where
   you're kind of stuck with one pace.
+- Presenting on stage or in front of the camera is a performance art. You need
+  to show people that you got this and that their time is well-invested. The
+  worst thing you can do is bore them, so skip the chase and get right to the
+  point.
 
 ### Finding your voice
 
 - Bootstrapping a YouTube channel reminds me a lot of bootstrapping a band: you
-  learn as you go and your first shows are most likely awful. This soul-seeking
-  takes a while until you find your "voice" and your audience. 
+  learn as you go and your first shows are probably awful. This soul-seeking
+  takes a while until you find your "inner voice" and your audience. 
 - It's tempting to arrange the show like your viewers presumably want it to be,
   but it's very important that you stay true to yourself. If you want to revamp
   the show, just do it. Not everybody will like it, but it's your personal
-  project and your freetime after all.
-- In the beginning, it was hard to let my personality show through. I'm usually
-  a very enthusiastic person, especially when talking about technology, but
-  in the videos I sometimes look dull. Some people even commented that it was
-  "painful to watch". It took me a while to figure out what was the reason. What
-  helped me was looking at other people to learn their tricks on how to loosen
-  things up.
+  project and it shouldn't become an additional job
+- In the beginning, it was hard to let my personality shine through. I'm usually
+  a very enthusiastic person, especially when talking tech, but in the videos I
+  sometimes look dull. Some people even commented that it was "painful to
+  watch". It took me a while to figure out what was the reason: I was scared to
+  reveal my clumsy self. What helped me was watching other people and learning
+  their tricks on how to loosen things up:
 
   #### B-roll
 
@@ -118,15 +121,16 @@
     exploration](https://www.masterclass.com/classes/chris-hadfield-teaches-space-exploration)
     to get a glimpse of that.
 
-  What I learned from them is that music is pretty important (pizzicanto works
-  good for my clumsy style), b-roll is quite cool (e.g. showing the website of a
-  project while I talk about it), camera movements and zooms also work well.
-  Sometimes I wish I had a dedicated camera-person to make that part easier. A
-  second camera might be nice to record additional footage.
+  The gist is, music creates a stronger atmosphere
+  (pizzicanto works good for my clumsy style), b-roll loosens up long
+  explanations (e.g. showing the website of a project while I talk about it),
+  camera movements and zooms make the content more lively. Sometimes I wish I
+  had a dedicated camera-person to make that part easier. A second camera might
+  be nice to record additional footage.
 
-  I found that not many coding channels think about delivery. Many have
-  great content but they fall short on the execution part which makes the videos
-  less immersive and entertaining.
+  I found that not many coding channels think about delivery. Many have great
+  content but they fall short on the execution part which makes the videos less
+  immersive and entertaining.
 
 
 ### Technique
@@ -140,9 +144,10 @@
 ### Gear
 
 - Invest in good gear. If you're serious about this, you will spend a LOT of
-  time in front of the screen editing text / cutting videos. It's wise to spend
-  some money on a good screen, mouse, keyboard and so on. Unfortunately, this
+  time in front of the screen, editing text / cutting videos. It's wise to spend
+  some money on a good screen, mouse, keyboard, and so on. Unfortunately, this
   ends in a never-ending race to find the perfect gear. And it can get quite
-  expensive.
+  expensive. So I suggest you look at what sucks the most and fix that first.
 - Rendering is still a time-sink in 2018. Plan in some time for that. I usually
   aim to render the master video over night.
+

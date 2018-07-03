@@ -35,10 +35,7 @@ impl From<std::num::ParseIntError> for Error {
 }
 
 fn parse_month(month: &str) -> Option<usize> {
-    match MONTH_NAMES.iter().position(|&elem| elem == month) {
-        Some(index) => Some(index + 1),
-        None => None,
-    }
+    MONTH_NAMES.iter().position(|&elem| elem == month).map(|day| day + 1)
 }
 
 fn parse_day(day_with_ordinal: &str) -> Result<u32, Error> {

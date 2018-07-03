@@ -16,6 +16,8 @@ notes:
   - "[Quickcheck crate for Rust](https://github.com/BurntSushi/quickcheck) by Andrew Gallant"
   - "[History of quickcheck](https://en.wikipedia.org/wiki/QuickCheck)"
   - "[Chrono english crate](https://github.com/stevedonovan/chrono-english) by Steve J Donovan"
+errata:
+  - "[vikrrrr](https://github.com/vikrrrr) found [a beautiful way to parse the month using Option::map](https://github.com/hello-rust/show/pull/42)."
 metas:
   - "I prefer to use `ok_or_else` as `ok_or` evaluates eagerly and [might get deprecated](https://github.com/rust-lang/rust/issues/51292)"
 licenses:

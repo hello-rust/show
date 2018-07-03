@@ -17,6 +17,15 @@ Keywords: Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD
 * [History of quickcheck](https://en.wikipedia.org/wiki/QuickCheck)
 * [Chrono english crate](https://github.com/stevedonovan/chrono-english) by Steve J Donovan
 
+## Errata
+
+It might come to you as a surprise, but every once in a while even I make a mistake.  
+This section covers all improvements made to the code since the epsiode went live.  
+For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8).
+Thanks to all contributors!  
+
+* [vikrrrr](https://github.com/vikrrrr) found [a beautiful way to parse the month using Option::map](https://github.com/hello-rust/show/pull/42).
+
 ## Meta
 
 * I prefer to use `ok_or_else` as `ok_or` evaluates eagerly and [might get deprecated](https://github.com/rust-lang/rust/issues/51292)

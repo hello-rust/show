@@ -28,6 +28,7 @@ struct Episode {
     keywords: Vec<String>,
     notes: Vec<String>,
     others: Option<Vec<String>>,
+    errata: Option<Vec<String>>,
     metas: Option<Vec<String>>,
     licenses: Option<Vec<String>>,
     markers: Option<Vec<String>>,

@@ -12,7 +12,8 @@ Important Links:
 {% for note in episode.notes -%}
 * {{ note }}
 {% endfor %}
-Missing something? Find even more information in the show notes: https://github.com/hello-rust/show/episode/{{ episode.number }}
+Missing something? Find even more information in the show notes: 
+https://github.com/hello-rust/show/tree/master/episode/{{ episode.number }}
 
 Keywords: {{ episode.keywords | join(sep=", ") }}
 

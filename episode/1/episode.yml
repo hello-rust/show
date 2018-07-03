@@ -3,8 +3,7 @@ title: Hello Universe
 url: https://www.youtube.com/watch?v=STWuPMcwwbw
 intro: >
       This is the very first real coding episode of "Hello Rust!".
-details: >
-      Today we will write *hello world*, but by leveraging the builder pattern
+      Today we will write *hello world*, but by leveraging the builder pattern, enums, and traits
       to support different languages (hence the title "Hello Universe").
 keywords:
   - default trait

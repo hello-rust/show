@@ -2,9 +2,9 @@
 
 ![YouTube video thumbnail](./thumb.jpg)
 
-Today, I want to show you how to write a Python extension in Rust using pyo3.  
+Today, I want to show you how to write a Python extension in Rust using pyo3.
 I like tinkering with programming languages and making things faster. What's cooler than combining those two things? With Rust you can write safe, fast extensions for dynamically typed programming languages like Python, PHP, or Ruby. That's why today i'd like to show you how to write a Python extension from scratch!
-  
+
 
 [Watch now on Youtube!](https://youtu.be/D9r__qxtRMQ)  
 
@@ -21,6 +21,10 @@ Keywords: Tutorial, FFI, pyo3, Module, Extension, Python
 ## Meta
 
 * Visual Studio Code Theme: Monokai
+
+
+## Resources and licenses
+
 * B-Roll: Computer And The Mind Of Man Pt 3, The Universal Machine: https://archive.org/details/ComputerAndTheMindOfManP3TheUniversalMachine.
 * Radio static by LimitSnap_Creations: https://freesound.org/people/LimitSnap_Creations/sounds/279003/.
 * silent movie 0M_34pi by Setuniman: https://freesound.org/people/Setuniman/sounds/153470/.

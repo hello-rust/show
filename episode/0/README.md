@@ -3,9 +3,9 @@
 ![YouTube video thumbnail](./thumb.jpg)
 
 This is the very first episode of "Hello Rust!". I'm so excited!
-  
-It is my lighthearted journey to become a fearless, more effective Rust programmer. And you can be part, too! My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun.
-  
+
+It is my lighthearted journey to become a fearless, more effective Rust programmer. And you can be part, too! My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun. In this episode, I talk about the show and how I started with Rust. The show is clearly inspired by "JustForFunc" and "Fun Fun Function".
+
 
 [Watch now on Youtube!](https://www.youtube.com/watch?v=jMJRTjnh_jo)  
 
@@ -24,7 +24,7 @@ Keywords: introduction, rustlang, programming, live-coding
 * [fun fun function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 
 
-## Meta
+## Resources and licenses
 
 * Wallpaper: [Grumpy Cat](https://www.tineye.com/search/4e3d2800ae44015cce4a5ee5e04b94226cae14ba/)
 

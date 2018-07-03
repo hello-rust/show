@@ -22,3 +22,5 @@ others:
   - If you really **need** list comprehensions, you could use [cute](https://crates.io/crates/cute), which is a set of macros that make this syntax possible.
 metas:
   - "Colorscheme: [Gruvbox Dark](https://github.com/morhetz/gruvbox)"
+licenses:
+  - "Intro song: Aries Beats - Night Ride (https://www.youtube.com/watch?v=AOvr_57BMZo)"

@@ -15,6 +15,13 @@ Important Links:
 Missing something? Find even more information in the show notes: 
 https://github.com/hello-rust/show/tree/master/episode/{{ episode.number }}
 
+{% if episode.licenses -%}
+Licensing
+{% for license in episode.licenses -%}
+{{ license }}
+{% endfor %}
+{% endif -%}
+
 Keywords: {{ episode.keywords | join(sep=", ") }}
 
 Hello Rust! is a show about the Rust programming language.

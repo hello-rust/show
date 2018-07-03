@@ -3,9 +3,9 @@
 ![YouTube video thumbnail](./thumb.jpg)
 
 Today we will do our first code review. 
-  
+
 I picked a library from my colleague [Luca Pizzamiglio](https://github.com/pizzamig/) called [repoctl](https://github.com/pizzamig/repoctl), which is a tool for handling FreeBSD package files in Rust. The goal is to improve the codebase and make it more robust and idiomatic.
-  
+
 
 [Watch now on Youtube!](https://www.youtube.com/watch?v=a6KWRvAPsmo)  
 
@@ -30,7 +30,7 @@ Keywords: Option, Result, Error handling, URL parsing, external crates
 * Somebody should implement [`Default`](https://doc.rust-lang.org/std/default/trait.Default.html) for [`Repository`](https://github.com/pizzamig/repoctl/blob/master/src/repository/mod.rs#L9).
 
 
-## Meta
+## Resources and licenses
 
 * [Elevator sound](https://freesound.org/people/omarie/sounds/382447/)
 * [Comic whistle sound](https://freesound.org/people/InspectorJ/sounds/410803/)

@@ -14,7 +14,7 @@ notes:
   - "[AsRef trait](https://doc.rust-lang.org/std/convert/trait.AsRef.html)"
   - "[Discussion around Into, AsRef and Cow](https://users.rust-lang.org/t/idiomatic-string-parmeter-types-str-vs-asref-str-vs-into-string/7934/4)"
   - "[Macros in Rust](https://doc.rust-lang.org/book/second-edition/appendix-04-macros.html)"
-metas:
+licenses:
   - "Comic suspense sound by tyops: https://freesound.org/people/tyops/sounds/347221/"
   - "Background music: [Juanitos - Hola_Hola_Bossa_Nova](http://freemusicarchive.org/music/Juanitos/)"
 markers:

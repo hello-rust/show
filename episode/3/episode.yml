@@ -26,7 +26,7 @@ others:
   - Use `unwrap_or_default()` where useful
   - Run [clippy](https://github.com/rust-lang-nursery/rust-clippy) on the project and fix all code smells.
   - Somebody should implement [`Default`](https://doc.rust-lang.org/std/default/trait.Default.html) for [`Repository`](https://github.com/pizzamig/repoctl/blob/master/src/repository/mod.rs#L9).
-metas:
+licenses:
   - "[Elevator sound](https://freesound.org/people/omarie/sounds/382447/)"
   - "[Comic whistle sound](https://freesound.org/people/InspectorJ/sounds/410803/)"
   - "[Swoosh sound](https://freesound.org/people/martian/sounds/19312/)"

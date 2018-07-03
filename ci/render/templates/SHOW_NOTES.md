@@ -3,7 +3,9 @@
 ![YouTube video thumbnail](./thumb.jpg)
 
 {{ episode.intro }}  
+{%- if episode.details %}
 {{ episode.details }}  
+{%- endif %}
 
 [Watch now on Youtube!]({{ episode.url }})  
 
@@ -28,6 +30,14 @@ Keywords: {{ episode.keywords | join(sep=", ") }}
 
 {% for meta in episode.metas -%}
 * {{ meta }}
+{% endfor %}
+{% endif %}
+
+{%- if episode.licenses %}
+## Resources and licenses
+
+{% for license in episode.licenses -%}
+* {{ license }}
 {% endfor %}
 {% endif %}
 

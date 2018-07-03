@@ -2,10 +2,8 @@
 
 ![YouTube video thumbnail](./thumb.jpg)
 
-This is the very first real coding episode of "Hello Rust!".
-  
-Today we will write *hello world*, but by leveraging the builder pattern to support different languages (hence the title "Hello Universe").
-  
+This is the very first real coding episode of "Hello Rust!". Today we will write *hello world*, but by leveraging the builder pattern, enums, and traits to support different languages (hence the title "Hello Universe").
+
 
 [Watch now on Youtube!](https://www.youtube.com/watch?v=STWuPMcwwbw)  
 

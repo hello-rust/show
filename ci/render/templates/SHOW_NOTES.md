@@ -30,7 +30,7 @@ Keywords: {{ episode.keywords | join(sep=", ") }}
 
 It might come to you as a surprise, but every once in a while even I make a mistake.  
 This section covers all improvements made to the code since the epsiode went live.  
-For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8).
+For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/{{ episode.number }}).
 Thanks to all contributors!  
 
 {% for error in episode.errata -%}

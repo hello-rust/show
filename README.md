@@ -1,6 +1,6 @@
  ![Hello Rust Show logo](logo.png)
 
-[YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) | [Homepage](https://hello-rust.show) | [Patreon](https://www.patreon.com/hellorust) | [Twitter](https://twitter.com/hellorustshow) | [Show notes](https://github.com/hello-rust/show/tree/master/episode)
+[▶️ YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) | [🏠 Homepage](https://hello-rust.show) | [❤️ Patreon](https://www.patreon.com/hellorust) | [💭 Twitter](https://twitter.com/hellorustshow) | [📝 Show notes](https://github.com/hello-rust/show/tree/master/episode)
 
 This is the main repository of *Hello Rust*, a live-coding show by [Matthias Endler](@mre) about the Rust programming language.  
 It is targeted towards intermediate Rust programmers, who have already read [the book](https://doc.rust-lang.org/book/) and want to learn advanced patterns and tricks as well as how to write ergonomic code in Rust.

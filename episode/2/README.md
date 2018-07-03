@@ -33,5 +33,5 @@ Keywords: iterators, map, filter, Entry API, List comprehensions
 
 If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) 😊.
 You will not regret this, I guess.
-If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/hellorust).  
+If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/bePatron?c=1568097).  
 Thank you very much for considering a donation - no matter the amount.

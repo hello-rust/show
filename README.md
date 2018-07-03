@@ -9,8 +9,9 @@ In this repository, you find the list of previous episodes, the planned shows an
 
 ### How to support me
 
+As you know, producing content takes a lot of time and effort. On top of that, running a YouTube channel requires getting a lot of expensive hardware (like recording and editing equipment) to achieve somewhat acceptable quality.
+This show is free for everybody to watch. If you want it to stay this way, consider donating.  
 [**Become a patron**](https://www.patreon.com/bePatron?c=1568097) and earn a special place in my heart &mdash; forever. ❤️  
-If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 
 ### List of episodes
 
@@ -23,6 +24,8 @@ If you have an idea for a future show, [don't hesitate to create a new issue or 
 * [#6: **Parameterized Tests, Macros, And Refactoring**](/episode/6) - Test data providers, Parameterized tests, AsRef trait, Macros [[Video](https://youtu.be/XJPci7GI-qg)]
 * [#7: **Parsing Dates Using Proptest And Tdd**](/episode/7) - Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD [[Video](https://youtu.be/zb7SD0Jco6g)]
 * [#8: **Let's Write A Python Module!**](/episode/8) - Tutorial, FFI, pyo3, Module, Extension, Python [[Video](https://youtu.be/D9r__qxtRMQ)]
+
+If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 
 ### Inspiration
 

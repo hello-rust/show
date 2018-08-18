@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Matthias Endler <matthias-endler@gmx.net>"]
 
 [dependencies]
+rayon = "1.0.2"

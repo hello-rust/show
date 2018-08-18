@@ -1,3 +1,6 @@
+extern crate rayon;
+
+use rayon::prelude::*;
 use std::collections::HashMap;
 use std::env;
 use std::fs;
@@ -12,9 +15,11 @@ type Words = Mutex<HashMap<String, u32>>;
 
 fn main() -> Result<(), Box<Error>> {
     let w = Words::new(HashMap::new());
-    for arg in env::args().skip(1) {
-        tally_words(arg, &w)?
-    }
+    env::args()
+        .skip(1)
+        .collect::<Vec<String>>()
+        .par_iter()
+        .for_each(|arg| tally_words(arg.to_string(), &w).unwrap());
 
     let words = w.lock().map_err(|_| Error::Lock)?;
     for (word, count) in words.iter() {

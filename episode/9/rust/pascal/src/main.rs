@@ -5,11 +5,13 @@ use rayon::prelude::*;
 use structopt::StructOpt;
 use std::collections::HashMap;
 use std::fs;
+use std::path::{PathBuf, Path};
 use std::sync::Mutex;
 
 #[derive(StructOpt)]
 struct Cli {
-    files: Vec<String>,
+    #[structopt(name = "FILE", parse(from_os_str))]
+    files: Vec<PathBuf>,
 }
 
 #[derive(Debug)]
@@ -25,7 +27,7 @@ fn main() -> Result<(), Box<Error>> {
 
     args.files
         .par_iter()
-        .for_each(|arg| tally_words(arg.to_string(), &w).unwrap());
+        .for_each(|filename| tally_words(filename, &w).unwrap());
 
     let words = w.lock().map_err(|_| Error::Lock)?;
     for (word, count) in words.iter() {
@@ -37,7 +39,7 @@ fn main() -> Result<(), Box<Error>> {
     Ok(())
 }
 
-fn tally_words(filename: String, w: &Words) -> Result<(), Box<Error>> {
+fn tally_words(filename: &Path, w: &Words) -> Result<(), Box<Error>> {
     let contents = fs::read_to_string(filename).expect("Unable to read file");
 
     for s in contents.split_whitespace() {

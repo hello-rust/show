@@ -1,10 +1,16 @@
 extern crate rayon;
+#[macro_use] extern crate structopt;
 
 use rayon::prelude::*;
+use structopt::StructOpt;
 use std::collections::HashMap;
-use std::env;
 use std::fs;
 use std::sync::Mutex;
+
+#[derive(StructOpt)]
+struct Cli {
+    files: Vec<String>,
+}
 
 #[derive(Debug)]
 enum Error {
@@ -15,9 +21,9 @@ type Words = Mutex<HashMap<String, u32>>;
 
 fn main() -> Result<(), Box<Error>> {
     let w = Words::new(HashMap::new());
-    env::args()
-        .skip(1)
-        .collect::<Vec<String>>()
+    let args = Cli::from_args();
+
+    args.files
         .par_iter()
         .for_each(|arg| tally_words(arg.to_string(), &w).unwrap());
 

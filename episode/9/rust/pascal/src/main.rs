@@ -1,12 +1,12 @@
 extern crate rayon;
 #[macro_use] extern crate structopt;
+extern crate im;
 
 use rayon::prelude::*;
 use structopt::StructOpt;
-use std::collections::HashMap;
+use im::ordmap::OrdMap;
 use std::fs;
 use std::path::{PathBuf, Path};
-use std::sync::Mutex;
 
 #[derive(StructOpt)]
 struct Cli {
@@ -19,17 +19,16 @@ enum Error {
     Lock,
 }
 
-type Words = Mutex<HashMap<String, u32>>;
+type Words = OrdMap<String, u32>;
 
 fn main() -> Result<(), Box<Error>> {
-    let w = Words::new(HashMap::new());
+    let mut words = Words::new();
     let args = Cli::from_args();
 
     args.files
         .par_iter()
-        .for_each(|filename| tally_words(filename, &w).unwrap());
+        .for_each(|filename| tally_words(filename, &mut words).unwrap());
 
-    let words = w.lock().map_err(|_| Error::Lock)?;
     for (word, count) in words.iter() {
         if *count > 1 {
             println!("{} {}", count, word)
@@ -39,14 +38,13 @@ fn main() -> Result<(), Box<Error>> {
     Ok(())
 }
 
-fn tally_words(filename: &Path, w: &Words) -> Result<(), Box<Error>> {
+fn tally_words(filename: &Path, words: &mut Words) -> Result<(), Box<Error>> {
     let contents = fs::read_to_string(filename).expect("Unable to read file");
 
     for s in contents.split_whitespace() {
         let key = s.to_lowercase();
         {
-            let mut map = w.lock().map_err(|_| Error::Lock)?;
-            *map.entry(key).or_insert(0) += 1;
+            *words.entry(key).or_insert(0) += 1;
         }
     }
     Ok(())

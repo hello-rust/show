@@ -1,8 +1,9 @@
  ![Hello Rust Show logo](logo.png)
 
-[▶️ YouTube](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) | [🏠 Homepage](https://hello-rust.show) | [❤️ Patreon](https://www.patreon.com/hellorust) | [💭 Twitter](https://twitter.com/hellorustshow) | [📝 Show notes](https://github.com/hello-rust/show/tree/master/episode)
+[▶️ YouTube](https://www.youtube.com/hellorust) | [🏠 Homepage](https://hello-rust.show) | [❤️ Patreon](https://www.patreon.com/hellorust) | [💭 Twitter](https://twitter.com/hellorustshow) | [📝 Show notes](https://github.com/hello-rust/show/tree/master/episode)
 
-This is the main repository of *Hello Rust*, a live-coding show by [Matthias Endler](@mre) about the Rust programming language.  
+This is the main repository of *Hello Rust*, a live-coding show by [Matthias
+Endler](@mre) about the Rust programming language (https://www.youtube.com/hellorust).  
 It is targeted towards intermediate Rust programmers, who have already read [the book](https://doc.rust-lang.org/book/) and want to learn advanced patterns and tricks as well as how to write ergonomic code in Rust.
 
 In this repository, you find the list of previous episodes, the planned shows and the show notes.
@@ -29,66 +30,11 @@ If you have an idea for a future show, [don't hesitate to create a new issue or 
 
 ### Inspiration
 
-These YouTube channels inspired me to make this:
+These YouTube channels inspired me to make this. I highly appreciate the work that went into these channels.
 
 * [Ferris Streams Stuff](https://www.youtube.com/channel/UC4mpLlHn0FOekNg05yCnkzQ)
 * [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [Just for func](https://github.com/campoy/justforfunc)
-
-### Creating an episode
-
-The following notes are helpful for me when recording a new episode.  
-Also, I thought it might be interesting to others, who also consider to run their own show.  
-
-#### Getting started
-
-* Pick an issue from the [issues page](https://github.com/hello-rust/show/issues) or create a new one.
-* Prefix the issue title with the next show number.
-
-#### Shooting the video
-
-* Cleanup SD card of digital camera
-* Prepare lighting
-* Set-up microphone
-* Prepare primary and secondary camera
-* Test recording and audio
-* Close all unrelated apps
-* Hide Bookmarks Toolbar in Firefox (right-click next to address bar and remove tick)
-* Prepare IDE settings
-  - Set slightly bigger font (VS Code: `editor.fontSize": 15`)
-  - ~~Enter "zen mode"~~ (doesn't show the terminal)
-* Set Mac to *do not disturb mode*
-* Deactivate night shift
-* Start recording and get cracking!
-
-### Shooting the intro
-
-* Create a teaser intro that shows exactly what to expect as an outcome (show some code as b-roll, maybe).
-
-### Postproduction
-
-1. Cut video
-2. Transitions
-3. Normalize sound
-4. Add music and sound effects
-5. Color Grading
-
-#### Before publication
-
-* Create nice title images for the video and the website.
-
-### Upload
-
-When uploading the video, I first set it to "unlisted".
-That gives me another opportunity to check the quality and the editing of the final cut.
-At this phase, I also add show notes to the video description, adjust the title
-and add time markers to the video description.
-
-#### Publication
-
-* Upload the code to Github.
-* Set YouTube video to "public".
-* Announce publication on Twitter and Reddit.
 
 ### FAQ
 

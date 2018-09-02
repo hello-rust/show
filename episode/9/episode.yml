@@ -1,0 +1,47 @@
+number: 9
+title: Go vs Rust - Concurrency and Race Conditions
+url: https://youtu.be/B5xYBrxVSiE
+intro: It's hard to put into words what I like about Rust. Easier to show with a quick example about concurrency and borrowing.
+details: > 
+    Capturing the "Magic of Rust" is not easy. Luckily, I found a simpler
+    way: show how Rust prevents race-conditions and guides us towards a safe,
+    idiomatic solution. We will port  a little Go CLI tool to Rust and compare
+    both solutions in terms of safety, error handling, and concurrency patterns.
+keywords:
+  - race-conditions
+  - ownership
+  - mutex
+  - concurrency
+  - rayon
+  - golang
+  - rustlang
+notes:
+  - "Go in Practice book by Matt Butcher and Matt Farina (Manning Publications, 2016): https://www.manning.com/books/go-in-practice"
+  - "Go in Practice example source code:
+  https://github.com/Masterminds/go-in-practice"
+  - "Golang provides tooling to help detect race conditions. E.g. try `go run --race` (see 'Go in Practice, p.70')"
+  - "Explanation of the Rustlang race-condition prevention: https://stackoverflow.com/questions/30559073/cannot-borrow-captured-outer-variable-in-an-fn-closure-as-mutable"
+  - "Amazing article about Rustlang iterator patterns by Karol Kuczmarski:
+  http://xion.io/post/code/rust-iter-patterns.html"
+  - "for_each method:
+  https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.for_each"
+  - "[std::sync::Mutex](https://doc.rust-lang.org/std/sync/struct.Mutex.html)"
+  - "Golang sync.Waitgroup: https://golang.org/pkg/sync/#WaitGroup"
+  - "rayon crate for easy parallelism: https://github.com/rayon-rs/rayon"
+  - "partition method: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.partition"
+metas:
+  - "Color scheme: JetJet Alternate for VSCode"
+licenses:
+  - "Comedic Boing, A.wav by InspectorJ (www.jshaw.co.uk) of Freesound.org"
+  - "Using 188709__setuniman__thoughts-1a37 by Setuniman (https://freesound.org/people/Setuniman/packs/9857/)"
+  - "Yay sound by jbeetle https://freesound.org/people/jbeetle/sounds/274510/"
+  - "piano-improv-prog-clumsy-raucous.wav by newagesoup https://freesound.org/people/newagesoup/sounds/341352/" 
+  - "[Crayon designed by Terdpongvector](https://www.freepik.com/free-vector/school-stuff-collection_1060700.htm)"
+markers:
+  - "Golang code: 1:28"
+  - "Trying to run our concurrent Go code: 5:41"
+  - "What I don't like about concurrent Go code: 8:31"
+  - "Rust code: 9:38"
+  - "From sequential to concurrent code: 15:36"
+  - "The beauty of Rust: 23:23"
+  - "Handling errors in for_each: 28:05"

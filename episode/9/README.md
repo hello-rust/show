@@ -25,9 +25,9 @@ Keywords: race-conditions, ownership, mutex, concurrency, rayon, golang, rustlan
 * rayon crate for easy parallelism: https://github.com/rayon-rs/rayon
 * partition method: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.partition
 
-## Errata
+## Errata and improvements
 
-It might come to you as a surprise, but every once in a while even I make a mistake.  
+It might come as a surprise to you, but every once in a while *even I* make a mistake.  
 This section covers all improvements made to the code since the epsiode went live.  
 For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/9).
 Thanks to all contributors!  

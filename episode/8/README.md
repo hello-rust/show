@@ -20,6 +20,15 @@ Keywords: Tutorial, FFI, pyo3, Module, Extension, Python
 * If you like this stuff check out [hyperjson](https://github.com/mre/hyperjson), a json module I wrote in Rust.
 * setup.py (for humans): https://github.com/kennethreitz/setup.py.
 
+## Errata and improvements
+
+It might come as a surprise to you, but every once in a while *even I* make a mistake.  
+This section covers all improvements made to the code since the epsiode went live.  
+For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8).
+Thanks to all contributors!  
+
+* Update code to work with latest version of pyo3; formatting and cleanup for stabilizations. See [changes here](https://github.com/hello-rust/show/pull/47).
+
 ## Meta
 
 * Visual Studio Code Theme: Monokai

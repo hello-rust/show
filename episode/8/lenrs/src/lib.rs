@@ -1,13 +1,9 @@
-#![feature(proc_macro)]
-#![feature(proc_macro_path_invoc)]
-
 extern crate pyo3;
 
 use pyo3::prelude::*;
 
-#[py::modinit(_lenrs)]
-fn init(py: Python, m: &PyModule) -> PyResult<()> {
-
+#[pymodinit]
+fn init(_py: Python, m: &PyModule) -> PyResult<()> {
     #[pyfn(m, "len")]
     fn len(py: Python, obj: PyObject) -> PyResult<PyObject> {
         if let Ok(s) = obj.extract::<String>(py) {

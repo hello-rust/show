@@ -29,6 +29,8 @@ notes:
   - "Golang sync.Waitgroup: https://golang.org/pkg/sync/#WaitGroup"
   - "rayon crate for easy parallelism: https://github.com/rayon-rs/rayon"
   - "partition method: https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.partition"
+errata:
+  - "[killercup](https://github.com/killercup) added [an alternative approach](https://github.com/hello-rust/show/pull/45) that creates one hashmap per file and uses Rayon's reduce to unify them."
 metas:
   - "Color scheme: JetJet Alternate for VSCode"
 licenses:

@@ -8,6 +8,8 @@ I like tinkering with programming languages and making things faster. What's coo
 
 [Watch now on Youtube!](https://youtu.be/D9r__qxtRMQ)  
 
+If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
+
 Keywords: Tutorial, FFI, pyo3, Module, Extension, Python
 
 ## Things I mentioned during the show
@@ -17,6 +19,15 @@ Keywords: Tutorial, FFI, pyo3, Module, Extension, Python
 * Here are a few ideas for your own module: Write a regex module based on Rust's re or write a str.replace method.
 * If you like this stuff check out [hyperjson](https://github.com/mre/hyperjson), a json module I wrote in Rust.
 * setup.py (for humans): https://github.com/kennethreitz/setup.py.
+
+## Errata and improvements
+
+It might come as a surprise to you, but every once in a while *even I* make a mistake.  
+This section covers all improvements made to the code since the epsiode went live.  
+For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8).
+Thanks to all contributors!  
+
+* Update code to work with latest version of pyo3; formatting and cleanup for stabilizations. See [changes here](https://github.com/hello-rust/show/pull/47).
 
 ## Meta
 
@@ -36,7 +47,8 @@ Keywords: Tutorial, FFI, pyo3, Module, Extension, Python
 
 ## Support!
 
-If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) 😊.
-You will not regret this, I guess.
-If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/bePatron?c=1568097).  
-Thank you very much for considering a donation - no matter the amount.
+Preparing, recording, and editing an episode takes a substantial amount of time
+(around 30 hours total). I do all of this next to my fulltime dayjob.
+If you want to show your appreciation and want to help me keep the content free
+for everybody to enjoy, [please consider supporting me on
+Patreon](https://www.patreon.com/bePatron?c=1568097) - no matter the amount. ❤️

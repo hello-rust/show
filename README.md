@@ -24,7 +24,9 @@ This show is free for everybody to watch. If you want it to stay this way, consi
 * [#5: **Coding Challenge - Balanced Brackets**](/episode/5) - Into trait, Pattern matching, HashMap, Stack, unreachable! macro, coding puzzle, competitive programming [[Video](https://youtu.be/XcuLHO8z_RA)]
 * [#6: **Parameterized Tests, Macros, And Refactoring**](/episode/6) - Test data providers, Parameterized tests, AsRef trait, Macros [[Video](https://youtu.be/XJPci7GI-qg)]
 * [#7: **Parsing Dates Using Proptest And Tdd**](/episode/7) - Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD [[Video](https://youtu.be/zb7SD0Jco6g)]
-* [#8: **Let's Write A Python Module!**](/episode/8) - Tutorial, FFI, pyo3, Module, Extension, Python [[Video](https://youtu.be/D9r__qxtRMQ)]
+* [#8: **Let's Write A Python Module!**](/episode/8) - Tutorial, FFI, pyo3,
+  Module, Extension, Python [[Video](https://youtu.be/D9r__qxtRMQ)]
+* [#9: **Go Vs Rust - Concurrency And Race Conditions**](/episode/9) - race-conditions, ownership, mutex, concurrency, rayon, golang, rustlang [[Video](https://youtu.be/B5xYBrxVSiE)]
 
 If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 

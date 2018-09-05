@@ -9,6 +9,8 @@ I picked a library from my colleague [Luca Pizzamiglio](https://github.com/pizza
 
 [Watch now on Youtube!](https://www.youtube.com/watch?v=a6KWRvAPsmo)  
 
+If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
+
 Keywords: Option, Result, Error handling, URL parsing, external crates
 
 ## Things I mentioned during the show
@@ -40,7 +42,8 @@ Keywords: Option, Result, Error handling, URL parsing, external crates
 
 ## Support!
 
-If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) 😊.
-You will not regret this, I guess.
-If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/bePatron?c=1568097).  
-Thank you very much for considering a donation - no matter the amount.
+Preparing, recording, and editing an episode takes a substantial amount of time
+(around 30 hours total). I do all of this next to my fulltime dayjob.
+If you want to show your appreciation and want to help me keep the content free
+for everybody to enjoy, [please consider supporting me on
+Patreon](https://www.patreon.com/bePatron?c=1568097) - no matter the amount. ❤️

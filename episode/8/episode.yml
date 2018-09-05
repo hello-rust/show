@@ -19,6 +19,9 @@ notes:
   - "Here are a few ideas for your own module: Write a regex module based on Rust's re or write a str.replace method."
   - "If you like this stuff check out [hyperjson](https://github.com/mre/hyperjson), a json module I wrote in Rust."
   - "setup.py (for humans): https://github.com/kennethreitz/setup.py."
+errata:
+  - "Update code to work with latest version of pyo3; formatting and cleanup for
+  stabilizations. See [changes here](https://github.com/hello-rust/show/pull/47)."
 metas:
   - "Visual Studio Code Theme: Monokai"
 licenses:

@@ -8,6 +8,8 @@ Let's take a look at proptest, a library for automatically generating testcases 
 
 [Watch now on Youtube!](https://youtu.be/zb7SD0Jco6g)  
 
+If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
+
 Keywords: Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD
 
 ## Things I mentioned during the show
@@ -17,11 +19,11 @@ Keywords: Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD
 * [History of quickcheck](https://en.wikipedia.org/wiki/QuickCheck)
 * [Chrono english crate](https://github.com/stevedonovan/chrono-english) by Steve J Donovan
 
-## Errata
+## Errata and improvements
 
-It might come to you as a surprise, but every once in a while even I make a mistake.  
+It might come as a surprise to you, but every once in a while *even I* make a mistake.  
 This section covers all improvements made to the code since the epsiode went live.  
-For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/8).
+For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/7).
 Thanks to all contributors!  
 
 * [vikrrrr](https://github.com/vikrrrr) found [a beautiful way to parse the month using Option::map](https://github.com/hello-rust/show/pull/42).
@@ -41,7 +43,8 @@ Thanks to all contributors!
 
 ## Support!
 
-If you liked this video, [please subscribe to my channel](https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw) 😊.
-You will not regret this, I guess.
-If you're really digging this thing, [show your support on Patreon](https://www.patreon.com/bePatron?c=1568097).  
-Thank you very much for considering a donation - no matter the amount.
+Preparing, recording, and editing an episode takes a substantial amount of time
+(around 30 hours total). I do all of this next to my fulltime dayjob.
+If you want to show your appreciation and want to help me keep the content free
+for everybody to enjoy, [please consider supporting me on
+Patreon](https://www.patreon.com/bePatron?c=1568097) - no matter the amount. ❤️

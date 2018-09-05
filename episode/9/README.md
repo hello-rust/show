@@ -33,6 +33,7 @@ For an exhaustive list of all changes to the original code, [go here](https://gi
 Thanks to all contributors!  
 
 * [killercup](https://github.com/killercup) added [an alternative approach](https://github.com/hello-rust/show/pull/45) that creates one hashmap per file and uses Rayon's reduce to unify them.
+* [euantorano](https://github.com/euantorano) provided [an alternative Go approach to counting words](https://github.com/hello-rust/show/pull/46).
 
 ## Meta
 

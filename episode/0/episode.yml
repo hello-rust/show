@@ -1,6 +1,6 @@
 number: 0
 title: Humble Beginnings
-url: https://www.youtube.com/watch?v=jMJRTjnh_jo
+id: jMJRTjnh_jo
 intro: >
       This is the very first episode of "Hello Rust!". I'm so excited!
 details: >
@@ -10,7 +10,6 @@ details: >
 keywords:
   - introduction
   - rustlang
-  - programming
   - live-coding
 notes:
   - "[Steve Klabnik - The History of Rust, 2015](https://www.youtube.com/watch?v=79PSagCD_AY)"

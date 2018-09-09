@@ -1,6 +1,6 @@
 number: 9
 title: Go vs Rust - Concurrency and Race Conditions
-url: https://youtu.be/B5xYBrxVSiE
+id: B5xYBrxVSiE
 intro: It's hard to put into words what I like about Rust. Easier to show with a quick example about concurrency and borrowing.
 details: > 
     Capturing the "Magic of Rust" is not easy. Luckily, I found a simpler

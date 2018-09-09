@@ -7,7 +7,7 @@ This is the very first episode of "Hello Rust!". I'm so excited!
 It is my lighthearted journey to become a fearless, more effective Rust programmer. And you can be part, too! My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun. In this episode, I talk about the show and how I started with Rust. The show is clearly inspired by "JustForFunc" and "Fun Fun Function".
 
 
-[Watch now on Youtube!](https://www.youtube.com/watch?v=jMJRTjnh_jo)  
+[Watch now on Youtube!](https://youtu.be/jMJRTjnh_jo)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

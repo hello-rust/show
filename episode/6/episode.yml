@@ -1,6 +1,6 @@
 number: 6
 title: Parameterized tests, macros, and refactoring
-url: https://youtu.be/XJPci7GI-qg
+id: XJPci7GI-qg
 intro: Let's fix a bug in my balanced brackets code and learn a few things about test organization and traits
 details: >
       There's some stuff to improve in my coding puzzle code from last time, balanced brackets.

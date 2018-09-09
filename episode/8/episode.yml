@@ -1,6 +1,6 @@
 number: 8
 title: Let's write a Python module!
-url: https://youtu.be/D9r__qxtRMQ
+id: D9r__qxtRMQ
 intro: Today, I want to show you how to write a Python extension in Rust using pyo3.
 details: >
   I like tinkering with programming languages and making things faster. What's cooler than combining those two things?

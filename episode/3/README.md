@@ -7,7 +7,7 @@ Today we will do our first code review.
 I picked a library from my colleague [Luca Pizzamiglio](https://github.com/pizzamig/) called [repoctl](https://github.com/pizzamig/repoctl), which is a tool for handling FreeBSD package files in Rust. The goal is to improve the codebase and make it more robust and idiomatic.
 
 
-[Watch now on Youtube!](https://www.youtube.com/watch?v=a6KWRvAPsmo)  
+[Watch now on Youtube!](https://youtu.be/a6KWRvAPsmo)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

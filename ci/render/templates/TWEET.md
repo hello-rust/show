@@ -2,4 +2,4 @@
 {{ episode.intro | truncate(length=250) }}
 
 Notes: https://github.com/hello-rust/show/tree/master/episode/{{ episode.number }}
-Video: {{ episode.url }}
+Video: https://youtu.be/{{episode.id}}

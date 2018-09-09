@@ -1,6 +1,6 @@
 number: 1
 title: Hello Universe
-url: https://www.youtube.com/watch?v=STWuPMcwwbw
+id: STWuPMcwwbw
 intro: >
       This is the very first real coding episode of "Hello Rust!".
       Today we will write *hello world*, but by leveraging the builder pattern, enums, and traits

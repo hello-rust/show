@@ -16,16 +16,15 @@ This show is free for everybody to watch. If you want it to stay this way, consi
 
 ### List of episodes
 
-* [#0: **Humble Beginnings**](/episode/0) - An introduction on what this show is about. [[Video](https://www.youtube.com/watch?v=jMJRTjnh_jo)]
-* [#1: **Hello Universe**](/episode/1) - Builder Pattern, Enums, standard traits. [[Video](https://www.youtube.com/watch?v=STWuPMcwwbw)]
-* [#2: **Snakes and Gears**](/episode/2) - Entry API, list compreshensions, iter, filter, map, and reduce. [[Video](https://www.youtube.com/watch?v=bS5rtxWd2yQ)]
-* [#3: **A Code Review**](/episode/3) - Option, Result, Error handling, URL parsing, external crates [[Video](https://www.youtube.com/watch?v=a6KWRvAPsmo)]
+* [#0: **Humble Beginnings**](/episode/0) - An introduction on what this show is about. [[Video](https://youtu.be/jMJRTjnh_jo)]
+* [#1: **Hello Universe**](/episode/1) - default trait, debug trait, builder pattern [[Video](https://youtu.be/STWuPMcwwbw)]
+* [#2: **Snakes And Gears**](/episode/2) - iterators, map, filter, EntryAPI, List comprehensions [[Video](https://youtu.be/bS5rtxWd2yQ)]
+* [#3: **A Code Review**](/episode/3) - Option, Result, Error handling, URL parsing, external crates [[Video](https://youtu.be/a6KWRvAPsmo)]
 * [#4: **Touch Typing Tutor**](/episode/4) - touch typing, application, ggez, event handling, game state, iterators, hacking, live-coding [[Video](https://youtu.be/S0Vubd-C5-o)]
 * [#5: **Coding Challenge - Balanced Brackets**](/episode/5) - Into trait, Pattern matching, HashMap, Stack, unreachable! macro, coding puzzle, competitive programming [[Video](https://youtu.be/XcuLHO8z_RA)]
 * [#6: **Parameterized Tests, Macros, And Refactoring**](/episode/6) - Test data providers, Parameterized tests, AsRef trait, Macros [[Video](https://youtu.be/XJPci7GI-qg)]
 * [#7: **Parsing Dates Using Proptest And Tdd**](/episode/7) - Property testing, Quickcheck, Unit testing, Fuzzy testing, TDD [[Video](https://youtu.be/zb7SD0Jco6g)]
-* [#8: **Let's Write A Python Module!**](/episode/8) - Tutorial, FFI, pyo3,
-  Module, Extension, Python [[Video](https://youtu.be/D9r__qxtRMQ)]
+* [#8: **Let'S Write A Python Module!**](/episode/8) - Tutorial, FFI, pyo3, Module, Extension, Python [[Video](https://youtu.be/D9r__qxtRMQ)]
 * [#9: **Go Vs Rust - Concurrency And Race Conditions**](/episode/9) - race-conditions, ownership, mutex, concurrency, rayon, golang, rustlang [[Video](https://youtu.be/B5xYBrxVSiE)]
 
 If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).

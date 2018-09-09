@@ -11,9 +11,6 @@ extern crate lazy_static;
 extern crate serde_derive;
 extern crate serde_yaml;
 extern crate url;
-extern crate url_serde;
-
-use url_serde::{deserialize, serialize};
 
 use tera::{Context, Tera};
 
@@ -21,8 +18,7 @@ use tera::{Context, Tera};
 struct Episode {
     number: u64,
     title: String,
-    #[serde(with = "self")]
-    url: url::Url,
+    id: String,
     intro: String,
     details: Option<String>,
     keywords: Vec<String>,
@@ -58,6 +54,12 @@ main!(|cli: Cli| {
     write_to_file(
         format!("episode/{}/README.md", episode.number),
         &readme.expect("Cannot render README.md"),
+    )?;
+
+    let readme = TEMPLATES.render("WEBSITE.md", &context);
+    write_to_file(
+        format!("episode/{}/meta/index.md", episode.number),
+        &readme.expect("Cannot render WEBSITE.md"),
     )?;
 
     let youtube = TEMPLATES.render("YOUTUBE.md", &context);

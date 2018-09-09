@@ -7,7 +7,7 @@ Let's talk about Python and Rust. I used to do a lot more Python than I do now, 
 One of the first things I was missing in Rust when coming from Python were List Comprehensions.   It took me a while to figure out, that the Rust way - using iter(), filter(), and map() - actually is a better fit for the language.   I want to show you how to port Rust list comprehensions to Rust.
 
 
-[Watch now on Youtube!](https://www.youtube.com/watch?v=bS5rtxWd2yQ)  
+[Watch now on Youtube!](https://youtu.be/bS5rtxWd2yQ)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

@@ -32,6 +32,6 @@ Keywords: default trait, debug trait, builder pattern
 
 Preparing, recording, and editing an episode takes a substantial amount of time
 (around 30 hours total). I do all of this next to my fulltime dayjob.
-If you want to show your appreciation and want to help me keep the content free
+If you want to show your appreciation and help me keep the content free
 for everybody to enjoy, [please consider supporting me on
 Patreon](https://www.patreon.com/bePatron?c=1568097) - no matter the amount. ❤️

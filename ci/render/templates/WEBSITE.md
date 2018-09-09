@@ -6,16 +6,19 @@ weight = {{ episode.number }}
 number = "{{ episode.number }}"
 +++
 
-{% raw %}{{{% endraw %}youtube(id={{episode.id }}) {% raw %}}}{% endraw %}
+{% raw %}{{{% endraw %}youtube(id="{{episode.id }}") {% raw %}}}{% endraw %}
 
-{{ episode.intro }}  
+<h2> {{ episode.intro }} </h2>  
+
+<p>
+
 {%- if episode.details %}
 {{ episode.details }}  
 {%- endif %}
 
-[Watch now on Youtube!](https://youtu.be/{{episode.id}})  
+</p>
 
-Keywords: {{ episode.keywords | join(sep=", ") }}
+Keywords: *{{ episode.keywords | join(sep=", ") }}*
 
 ## Things I mentioned during the show
 
@@ -59,3 +62,11 @@ Thanks to all contributors!
 * {{ license }}
 {% endfor %}
 {% endif %}
+
+## Support!
+
+Preparing, recording, and editing an episode takes a substantial amount of time
+(around 30 hours total). I do all of this next to my fulltime dayjob.
+If you want to show your appreciation and help me keep the content free
+for everybody to enjoy, [please consider supporting me on
+Patreon](https://www.patreon.com/bePatron?c=1568097) - no matter the amount. ❤️

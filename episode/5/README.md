@@ -2,9 +2,9 @@
 
 ![YouTube video thumbnail](./thumb.jpg)
 
-Today we will do a quick interview question called "balanced brackets" (I'm hiding a bug in my code, can you find it? 😉 Answer here: https://github.com/hello-rust/show/pull/31)
+Today we will do a quick interview question called "balanced brackets"
 
-I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time. In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine, to check if an input consisting of brackets has exactly one closing bracket for each opening bracket.
+I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time. In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine, to check if an input consisting of brackets has exactly one closing bracket for each opening bracket. (Psst... I'm hiding a bug in my code, can you find it? 😉 Answer here: https://github.com/hello-rust/show/pull/31)
 
 
 [Watch now on Youtube!](https://youtu.be/XcuLHO8z_RA)  
@@ -38,6 +38,6 @@ Keywords: Into trait, Pattern matching, HashMap, Stack, unreachable! macro, codi
 
 Preparing, recording, and editing an episode takes a substantial amount of time
 (around 30 hours total). I do all of this next to my fulltime dayjob.
-If you want to show your appreciation and want to help me keep the content free
+If you want to show your appreciation and help me keep the content free
 for everybody to enjoy, [please consider supporting me on
 Patreon](https://www.patreon.com/bePatron?c=1568097) - no matter the amount. ❤️

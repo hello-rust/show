@@ -8,10 +8,6 @@ number = "{{ episode.number }}"
 
 {% raw %}{{{% endraw %}youtube(id="{{episode.id }}") {% raw %}}}{% endraw %}
 
-<a target="_blank" class="button"
-href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/{{episode.number}}">&#x25b6;
-Run and edit code on Gitpod</a>
-
 <h2> {{ episode.intro }} </h2>  
 
 <p>
@@ -22,7 +18,13 @@ Run and edit code on Gitpod</a>
 
 </p>
 
-Keywords: *{{ episode.keywords | join(sep=", ") }}*
+<a target="_blank" class="button"
+href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/{{episode.number}}">&#x25b6;
+Run and edit code on Gitpod</a>
+
+## Keywords
+
+*{{ episode.keywords | join(sep=", ") }}*
 
 ## Things I mentioned during the show
 

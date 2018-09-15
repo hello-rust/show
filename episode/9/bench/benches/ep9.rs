@@ -10,30 +10,30 @@ fn ep9(c: &mut Criterion) {
     // lazy and this is the easiest way to make it compile stuff right where we
     // need it.
     let fns = vec![
-        {
+        Fun::new("rust fixed", |b, _| {
             let path = PathBuf::from("../rust/fixed");
             compile_rust(&path);
             let bin = path.join("target/release/fixed");
-            Fun::new("rust fixed", move |b, _| b.iter(|| run(&bin)))
-        },
-        {
+            b.iter(|| run(&bin))
+        }),
+        Fun::new("rust pascal", |b, _| {
             let path = PathBuf::from("../rust/pascal");
             compile_rust(&path);
             let bin = path.join("target/release/fixed");
-            Fun::new("rust pascal", move |b, _| b.iter(|| run(&bin)))
-        },
-        {
+             b.iter(|| run(&bin))
+        }),
+        Fun::new("go fixed", |b, _| {
             let path = PathBuf::from("../go");
             compile_go(&path, "fixed.go");
             let bin = path.join("fixed");
-            Fun::new("go fixed", move |b, _| b.iter(|| run(&bin)))
-        },
-        {
+            b.iter(|| run(&bin))
+        }),
+        Fun::new("go worker", |b, _| {
             let path = PathBuf::from("../go");
             compile_go(&path, "worker.go");
             let bin = path.join("worker");
-            Fun::new("go worker", move |b, _| b.iter(|| run(&bin)))
-        },
+            b.iter(|| run(&bin))
+        }),
     ];
 
     // Using this, we get a graph comparing all the functions
@@ -52,6 +52,7 @@ fn compile_rust(path: &Path) {
     Command::new("cargo")
         .arg("build")
         .arg("--release")
+        .arg("--quiet")
         .current_dir(path)
         .status()
         .expect("failed to execute process");

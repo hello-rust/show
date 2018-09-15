@@ -1,0 +1,14 @@
+[package]
+name = "bench"
+version = "0.1.0"
+authors = ["Pascal Hertleif <killercup@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "ep9"
+harness = false

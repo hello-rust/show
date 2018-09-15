@@ -30,14 +30,17 @@
   editor using crops or a Ken Burns effect. This will dilute the recording
   quality a bit, but it adds so much depth and liveness.
 
-### Things I did right
+### Things I did right from the start
 
 - Adding features as I go: for example in the beginning I manually formatted the show notes.
   Seeing that this took so much time, I wrote a small CLI tool to render it from
   a YAML file. Over time, I added more output formats for the same content:
   YouTube, Twitter, the `README` and so on. The important part is that I did
   that over the course of many episodes instead of doing lots of work up-front.
-
+- From day one I took down all observations and learnings. Many things feel
+  obvious to me now, but they were sure not when I started out. I'm thankful for
+  taking notes, because I could never go to a beginner mindset, even if I wanted
+  to. I want other people to have an easier time when learning how to make their own show.
 
 ### Consistency
 
@@ -75,7 +78,7 @@
   to the end of the title to improve discovery on YouTube. That was a great
   idea! People rarely search for the show directly, but instead they find it
   through keywords.
-- Similarly, people were frustrated about the flow of the show: some people said
+- Similarly, people were frustrated about the flow of the show: some said
   I was rushing over some topics, others thought that it was dragging along.
   What I did was adding a lot more links to entry-level topics for onboarding
   beginners and adding markers to the videos so that people could jump to the
@@ -131,6 +134,9 @@
   I found that not many coding channels think about delivery. Many have great
   content but they fall short on the execution part which makes the videos less
   immersive and entertaining.
+  That's why I spent time on learning how to edit. There are tons of nice
+  resources out there like [How Does an Editor Think and
+  Feel?](https://www.youtube.com/watch?v=3Q3eITC01Fg) and [This Guy Edits](https://www.youtube.com/channel/UCcPuBEAwuF6XWXkcXJXJwsg).
 
 
 ### Technique
@@ -145,9 +151,9 @@
 
 - Invest in good gear. If you're serious about this, you will spend a LOT of
   time in front of the screen, editing text / cutting videos. It's wise to spend
-  some money on a good screen, mouse, keyboard, and so on. Unfortunately, this
-  ends in a never-ending race to find the perfect gear. And it can get quite
-  expensive. So I suggest you look at what sucks the most and fix that first.
+  some money on a good screen, mouse, keyboard, and so on. Unfortunately, it's
+  a never-ending race to find the perfect gear; and it can get quite
+  expensive. I suggest you look at what sucks the most and fix that first.
 - Rendering is still a time-sink in 2018. Plan in some time for that. I usually
   aim to render the master video over night.
 

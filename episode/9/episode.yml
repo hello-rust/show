@@ -32,6 +32,7 @@ notes:
 errata:
   - "[killercup](https://github.com/killercup) added [an alternative approach](https://github.com/hello-rust/show/pull/45) that creates one hashmap per file and uses Rayon's reduce to unify them."
   - "[euantorano](https://github.com/euantorano) provided [an alternative Go approach to counting words](https://github.com/hello-rust/show/pull/46)."
+  - "[killercup](https://github.com/killercup) added [benchmarks](https://github.com/hello-rust/show/pull/48) because ~~he seems to have too much free time at his hands~~ he was curios and people kept asking."
 metas:
   - "Color scheme: JetJet Alternate for VSCode"
 licenses:

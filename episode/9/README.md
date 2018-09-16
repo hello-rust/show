@@ -1,12 +1,12 @@
 # Episode 9 - Go Vs Rust - Concurrency And Race Conditions
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/9/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/B5xYBrxVSiE)**
 
 It's hard to put into words what I like about Rust. Easier to show with a quick example about concurrency and borrowing.
 Capturing the "Magic of Rust" is not easy. Luckily, I found a simpler way: show how Rust prevents race-conditions and guides us towards a safe, idiomatic solution. We will port  a little Go CLI tool to Rust and compare both solutions in terms of safety, error handling, and concurrency patterns.
 
 
-[Watch now on Youtube!](https://youtu.be/B5xYBrxVSiE)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

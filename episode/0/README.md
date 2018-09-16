@@ -1,13 +1,13 @@
 # Episode 0 - Humble Beginnings
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/0/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/jMJRTjnh_jo)**
 
 This is the very first episode of "Hello Rust!". I'm so excited!
 
 It is my lighthearted journey to become a fearless, more effective Rust programmer. And you can be part, too! My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun. In this episode, I talk about the show and how I started with Rust. The show is clearly inspired by "JustForFunc" and "Fun Fun Function".
 
 
-[Watch now on Youtube!](https://youtu.be/jMJRTjnh_jo)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

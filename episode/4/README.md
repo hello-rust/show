@@ -1,13 +1,13 @@
 # Episode 4 - Touch Typing Tutor
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/4/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/S0Vubd-C5-o)**
 
 I hack on a small application that will help me get better at touch typing.
 
 Not a tutorial, but just a fun hacking session to build a touch typing application using ggez - a game framework written in Rust.
 
 
-[Watch now on Youtube!](https://youtu.be/S0Vubd-C5-o)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

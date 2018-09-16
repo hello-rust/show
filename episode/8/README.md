@@ -1,12 +1,12 @@
 # Episode 8 - Let'S Write A Python Module!
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/8/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/D9r__qxtRMQ)**
 
 Today, I want to show you how to write a Python extension in Rust using pyo3.
 I like tinkering with programming languages and making things faster. What's cooler than combining those two things? With Rust you can write safe, fast extensions for dynamically typed programming languages like Python, PHP, or Ruby. That's why today i'd like to show you how to write a Python extension from scratch!
 
 
-[Watch now on Youtube!](https://youtu.be/D9r__qxtRMQ)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

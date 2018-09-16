@@ -1,13 +1,13 @@
 # Episode 5 - Coding Challenge - Balanced Brackets
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/5/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/XcuLHO8z_RA)**
 
 Today we will do a quick interview question called "balanced brackets"
 
 I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time. In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine, to check if an input consisting of brackets has exactly one closing bracket for each opening bracket. (Psst... I'm hiding a bug in my code, can you find it? 😉 Answer here: https://github.com/hello-rust/show/pull/31)
 
 
-[Watch now on Youtube!](https://youtu.be/XcuLHO8z_RA)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

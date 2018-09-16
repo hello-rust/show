@@ -1,13 +1,13 @@
 # Episode 3 - A Code Review
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/3/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/a6KWRvAPsmo)**
 
 Today we will do our first code review. 
 
 I picked a library from my colleague [Luca Pizzamiglio](https://github.com/pizzamig/) called [repoctl](https://github.com/pizzamig/repoctl), which is a tool for handling FreeBSD package files in Rust. The goal is to improve the codebase and make it more robust and idiomatic.
 
 
-[Watch now on Youtube!](https://youtu.be/a6KWRvAPsmo)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

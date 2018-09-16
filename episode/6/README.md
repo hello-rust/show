@@ -1,12 +1,12 @@
 # Episode 6 - Parameterized Tests, Macros, And Refactoring
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/6/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/XJPci7GI-qg)**
 
 Let's fix a bug in my balanced brackets code and learn a few things about test organization and traits
 There's some stuff to improve in my coding puzzle code from last time, balanced brackets. Can you spot the bug and fix it? I'll show you what's wrong and an idiomatic way to solve the problem.
 
 
-[Watch now on Youtube!](https://youtu.be/XJPci7GI-qg)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

@@ -1,13 +1,13 @@
 # Episode {{ episode.number }} - {{ episode.title | title }}
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/{{ episode.number }}/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/{{episode.id}})**
 
 {{ episode.intro }}  
 {%- if episode.details %}
 {{ episode.details }}  
 {%- endif %}
 
-[Watch now on Youtube!](https://youtu.be/{{episode.id}})  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

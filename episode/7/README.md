@@ -1,12 +1,12 @@
 # Episode 7 - Parsing Dates Using Proptest And Tdd
 
-![YouTube video thumbnail](./thumb.jpg)
+[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/7/)
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/zb7SD0Jco6g)**
 
 Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.
 Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame). We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
 
 
-[Watch now on Youtube!](https://youtu.be/zb7SD0Jco6g)  
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 

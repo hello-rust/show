@@ -22,6 +22,12 @@ fn ep9(c: &mut Criterion) {
             let bin = path.join("target/release/fixed");
              b.iter(|| run(&bin))
         }),
+        Fun::new("rust union", |b, _| {
+            let path = PathBuf::from("../rust/union");
+            compile_rust(&path);
+            let bin = path.join("target/release/fixed");
+             b.iter(|| run(&bin))
+        }),
         Fun::new("go fixed", |b, _| {
             let path = PathBuf::from("../go");
             compile_go(&path, "fixed.go");

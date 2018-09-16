@@ -43,7 +43,7 @@ Run and edit the code on Gitpod</a>
 {%- if episode.errata %}
 ## Errata and improvements
 
-It might come as a surprise to you, but every once in a while *even I* make a mistake. This section covers all improvements made to the code since the epsiode went live. For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/{{ episode.number }}). Thanks to all contributors! 
+It might come as a surprise to you, but every once in a while *even I* make a mistake. This section covers all improvements made to the code since the episode went live. For an exhaustive list of all changes to the original code, [go here](https://github.com/hello-rust/show/commits/master/episode/{{ episode.number }}). Thanks to all contributors!
 
 {% for error in episode.errata -%}
 * {{ error }}

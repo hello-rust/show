@@ -33,7 +33,7 @@ errata:
   - "[killercup](https://github.com/killercup) added [an alternative approach](https://github.com/hello-rust/show/pull/45) that creates one hashmap per file and uses Rayon's reduce to unify them."
   - "[euantorano](https://github.com/euantorano) provided [an alternative Go approach to counting words](https://github.com/hello-rust/show/pull/46)."
   - |
-      [killercup](https://github.com/killercup) added [benchmarks](https://github.com/hello-rust/show/pull/48) because ~~he seems to have too much free time at his hands~~ he was curios and people kept asking.
+      [killercup](https://github.com/killercup) added [benchmarks](https://github.com/hello-rust/show/pull/48) because <s>he seems to have too much free time at his hands</s> he was curios and people kept asking.
           Here's a quick preview (but also run them on your own machine!):
           
           ![](https://cdn.rawgit.com/hello-rust/show/a8de0d77a8cb2672fe1f37f4d9251950038b7b50/episode/9/bench/results/ep9-violin.svg)

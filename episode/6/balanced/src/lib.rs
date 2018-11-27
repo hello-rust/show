@@ -1,3 +1,6 @@
+#[cfg(test)]
+extern crate rstest;
+
 use std::collections::HashMap;
 
 pub fn balanced(input: impl AsRef<str>) -> bool {
@@ -23,30 +26,25 @@ pub fn balanced(input: impl AsRef<str>) -> bool {
 #[cfg(test)]
 mod tests {
     use super::balanced;
+    use rstest::rstest_parametrize;
 
-    macro_rules! parameterized {
-        ($($name:ident: $value:expr,)*) => {
-            $(
-                #[test]
-                fn $name() {
-                    let (input, expected) = $value;
-                    assert_eq!(expected, balanced(input));
-                }
-            )*
-        }
+    #[rstest_parametrize(value,
+    case(""),
+    case("()"),
+    case("()[]{}"),
+    case("{()[]{}[]}")
+    )]
+    fn is_balanced(value: &str) {
+        assert!(balanced(value))
     }
 
-    parameterized! {
-        empty: ("", true),
-        simple_parenthesis: ("()", true),
-        multiple_brackets: ("()[]{}", true),
-        nested_brackets: ("{()[]{}[]}", true),
-    }
-
-    parameterized! {
-        missing_close: ("(", false),
-        missing_open: (")", false),
-        non_bracket_input: ("{(())[[{}]]{}[]}hello", false),
+    #[rstest_parametrize(value,
+    case("("),
+    case(")"),
+    case("{(())[[{}]]{}[]}hello")
+    )]
+    fn is_not_balanced(value: &str) {
+        assert!(!balanced(value))
     }
 
 }

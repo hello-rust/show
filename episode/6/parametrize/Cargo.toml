@@ -1,0 +1,10 @@
+[package]
+name = "parametrize"
+version = "0.1.0"
+authors = ["Michele d'Amico <michele.damico@gmail.com>"]
+
+[dependencies]
+"balanced" = { path = "../balanced" }
+
+[dev-dependencies]
+"rstest" = "0.2"

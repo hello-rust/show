@@ -15,7 +15,7 @@ Keywords: iterators, map, filter, Entry API, List comprehensions
 
 ## Things I mentioned during the show
 
-* Reading files using the [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/basics.html#ex-std-read-lines).
+* Reading files using the [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/file/read-write.html#read-lines-of-strings-from-a-file).
 * [DevDocs](http://devdocs.io/) is a nice Rust documentation viewer. Also supports a ton of other languages and works offline.
 
 ## Things I should have mentioned (but forgot)

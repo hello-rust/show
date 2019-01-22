@@ -8,15 +8,13 @@ number = "{{ episode.number }}"
 
 {% raw %}{{{% endraw %}youtube(id="{{episode.id }}") {% raw %}}}{% endraw %}
 
-<h2> {{ episode.intro }} </h2>  
+## {{ episode.intro }}  
 
-<p>
+<!-- more -->
 
 {%- if episode.details %}
 {{ episode.details }}  
 {%- endif %}
-
-</p>
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/{{episode.number}}">&#x25b6;

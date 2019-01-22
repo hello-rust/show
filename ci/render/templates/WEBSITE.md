@@ -10,11 +10,11 @@ number = "{{ episode.number }}"
 
 ## {{ episode.intro }}  
 
-<!-- more -->
-
 {%- if episode.details %}
 {{ episode.details }}  
 {%- endif %}
+
+<!-- more -->
 
 <a target="_blank" class="button"
 href="https://gitpod.io/#https://github.com/hello-rust/show/tree/master/episode/{{episode.number}}">&#x25b6;

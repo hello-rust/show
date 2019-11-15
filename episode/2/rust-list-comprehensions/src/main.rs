@@ -4,7 +4,7 @@ use std::collections::{HashMap, HashSet};
 
 fn main() {
     let numbers: Vec<i64> = (1..1000).collect();
-    println!("{:?}", numbers)
+    println!("{:?}", numbers);
 
     let path = "/usr/share/dict/words";
     let input = File::open(path).unwrap();

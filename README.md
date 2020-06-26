@@ -2,7 +2,7 @@
 
 [🏠 Homepage](https://hello-rust.show) | [▶️ YouTube](https://www.youtube.com/hellorust) | [❤️ Patreon](https://www.patreon.com/hellorust) | [💭 Twitter](https://twitter.com/hellorustshow) | [📝 Show notes](https://github.com/hello-rust/show/tree/master/episode)
 
-This is the main repository of *Hello Rust*, a live-coding show by [Matthias
+This is the main repository of *Hello Rust*, a coding show by [Matthias
 Endler](@mre) about the Rust programming language (https://www.youtube.com/hellorust).  
 It is targeted towards intermediate Rust programmers, who have already read [the book](https://doc.rust-lang.org/book/) and want to learn advanced patterns and tricks as well as how to write ergonomic code in Rust.
 
@@ -16,6 +16,8 @@ This show is free for everybody to watch. If you want it to stay this way, consi
 
 ### List of episodes
 
+#### Season 1 - 2018
+
 * [#0: **Humble Beginnings**](/episode/0) - An introduction on what this show is about. [[Video](https://youtu.be/jMJRTjnh_jo)]
 * [#1: **Hello Universe**](/episode/1) - default trait, debug trait, builder pattern [[Video](https://youtu.be/STWuPMcwwbw)]
 * [#2: **Snakes And Gears**](/episode/2) - iterators, map, filter, EntryAPI, List comprehensions [[Video](https://youtu.be/bS5rtxWd2yQ)]
@@ -27,11 +29,15 @@ This show is free for everybody to watch. If you want it to stay this way, consi
 * [#8: **Let'S Write A Python Module!**](/episode/8) - Tutorial, FFI, pyo3, Module, Extension, Python [[Video](https://youtu.be/D9r__qxtRMQ)]
 * [#9: **Go Vs Rust - Concurrency And Race Conditions**](/episode/9) - race-conditions, ownership, mutex, concurrency, rayon, golang, rustlang [[Video](https://youtu.be/B5xYBrxVSiE)]
 
+#### Season 2 - Soon? 😙
+
+* ...
+
 If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 
 ### Inspiration
 
-These YouTube channels inspired me to make this. I highly appreciate the work that went into these channels.
+The following YouTube creators greatly inspired me. I appreciate the work that went into these channels.
 
 * [Ferris Streams Stuff](https://www.youtube.com/channel/UC4mpLlHn0FOekNg05yCnkzQ)
 * [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
@@ -40,7 +46,7 @@ These YouTube channels inspired me to make this. I highly appreciate the work th
 ### FAQ
 
 **Q: What development environment do you use?**    
-**A:** Right now, I use *VSCode* and the *Rust* plugin plus the *Rust Language Server*.  
+**A:** Right now, I use *VSCode* and the *Rust* plugin plus *Rust analyzer*.  
 I've heard good things about the IntelliJ Rust plugin, though.  
 Therefore, I might try this setup in the future.  
 
@@ -48,24 +54,27 @@ Therefore, I might try this setup in the future.
 **A:** Video: Canon 700D. Audio: Rhode NT USB, Takstar SGC 598.
 
 **Q: What is your post-processing routine?**    
-**A:** Quite simple. I solely use ~~iMovie~~ (Davinci Resolve) right now. There are better programs out there, but so far it does the job. I'm mostly annoyed by the long rendering times on my MacBook. (5 hours for 30 minutes of video)
+**A:** Quite simple. I solely use ~~iMovie~~ ~~Davinci Resolve~~ Final Cut right now.  
+I'm mostly annoyed by the long rendering times on my MacBook. (5 hours for 30 minutes of video.)
 
 **Q: What is the name of your color theme?**  
-**A:** Usually I use 1337, but that can vary per show. I will try to mention it in the show notes, if it's something else.
+**A:** Usually I use 1337 and the [Github Theme](https://github.com/primer/github-vscode-theme), but that can vary per show.  
+I will try to mention it in the show notes, if it's something else.
 
 **Q: What font are you using?**  
-**A:** Operator Sans Mono
+**A:** ~Operator Sans Mono~ [Cascadia Code](https://github.com/microsoft/cascadia-code) as a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) variant
 
 **Q: How long does it take to create one episode?**  
 **A:** Around 30 hours. Here's a breakdown of the process:
-* Preparation time: 5 hours
-* Creating a prototype for the code I'd like to show: 2-5 hours
-* Prepare office for recording: 30min
-* Recording: 2-4 hours
-* Editing: 12-16 hours
-* Publication: 2 hours
 
-My hope is to get faster with more practice. Especially the editing is still
+* 💪 Preparation time: 5 hours
+* 👨🏻‍💻 Creating a prototype for the code I'd like to show: 2-5 hours
+* 🌺 Prepare office for recording: 30min
+* 🖥 Recording: 2-4 hours
+* 🎞 Editing: 12-16 hours
+* 🍿 Publication: 2 hours
+
+My hope is to get faster over time. Especially the editing is still
 painful, although I've gotten much better already. Publication could also mostly
 be done automatically and I wrote some tooling to help me with that (see `ci`
 folder).

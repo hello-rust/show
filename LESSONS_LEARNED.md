@@ -7,13 +7,13 @@
 - Video assets are huuuge. A typical episode takes hundreds of gigabytes of
   render files. To edit efficiently, I have to squeeze out every byte from my
   tiny disk. In the long run, I will have to invest in better hardware, which I
-  haven't done in a while because Computers are reasonably fast for most task
-  today - not so for recording.
+  haven't done in a while because Computers are reasonably fast for most tasks
+  today - except recording.
 - After a video is shot, you can not change the narrative anymore. You'll wake
-  up in the morning and think: "oh my God, I totally forgot THAT". But the only
-  you can do is add a comment or cut stuff, not add things to the recording.
-  Therefore, a script is vital in which I keep track of the things I absolutely
-  have to say during the episode, but no word-by-word instructions.
+  up in the morning thinking: "oh God, I totally forgot THAT". But the only thing
+  you can do is add a comment.
+  Therefore, a script is vital to keep track of things I absolutely
+  have to say during the episode, but I don't use word-for-word screenwriting.
 - Every programming mistake during the recording is very expensive. In post, you
   have to decide whether to cut it out or leave it in there. Cutting it out can
   be tricky, as you might only discover your mistake minutes later and leaving
@@ -67,7 +67,7 @@
 
 ### Resources
 
-- There's a ton of royality free music out there, but it's hard to find because
+- There's a ton of royalty free music out there, but it's hard to find because
   it's not properly categorized or the preview is cumbersome. Right now I use
   [freemusicarchive](freemusicarchive.org/), although it's not the most
   convenient to use.
@@ -125,7 +125,7 @@
     to get a glimpse of that.
 
   The gist is, music creates a stronger atmosphere
-  (pizzicanto works good for my clumsy style), b-roll loosens up long
+  (pizzicato works good for my clumsy style), b-roll loosens up long
   explanations (e.g. showing the website of a project while I talk about it),
   camera movements and zooms make the content more lively. Sometimes I wish I
   had a dedicated camera-person to make that part easier. A second camera might

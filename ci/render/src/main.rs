@@ -1,18 +1,13 @@
-#[macro_use]
-extern crate quicli;
-use quicli::prelude::*;
+use serde::{Serialize, Deserialize};
+use lazy_static::lazy_static;
+use anyhow::{Context, Result, anyhow};
+use tera::Tera;
+use tera::Context as TeraContext;
 
-#[macro_use]
-extern crate tera;
-#[macro_use]
-extern crate lazy_static;
-
-#[macro_use]
-extern crate serde_derive;
-extern crate serde_yaml;
-extern crate url;
-
-use tera::{Context, Tera};
+use std::env;
+use std::path::{Path};
+use std::io::{ BufWriter, Write};
+use std::fs::{self, File};
 
 #[derive(Debug, PartialEq, Serialize, Deserialize)]
 struct Episode {
@@ -30,56 +25,76 @@ struct Episode {
     markers: Option<Vec<String>>,
 }
 
-/// Render episode data in many different formats, yo!
-#[derive(Debug, StructOpt)]
-struct Cli {
-    /// The input YAML file for the episode
-    input: String,
-}
-
 lazy_static! {
     pub static ref TEMPLATES: Tera = {
-        let tera = compile_templates!("ci/render/templates/**/*");
+        let tera = match Tera::new("ci/render/templates/**/*") {
+            Ok(t) => t,
+            Err(e) => {
+                println!("Parsing error(s): {}", e);
+                ::std::process::exit(1);
+            }
+        };
         tera
     };
 }
 
-main!(|cli: Cli| {
-    let content = read_file(cli.input)?;
+pub fn write_to_file<P: AsRef<Path>>(path: P, content: &str) -> Result<()> {
+    let path = path.as_ref();
+
+    let file =
+        File::create(path).with_context(|| format!("Could not create/open file {:?}", path))?;
+    let mut file = BufWriter::new(file);
+
+    file.write_all(content.as_bytes())
+        .with_context(|| format!("Could not write to file {:?}", path))?;
+
+    Ok(())
+}
+
+fn main() -> Result<()> {
+    let args: Vec<_> = env::args().collect();
+    if args.len() != 2 {
+        return Err(anyhow!("Expected exactly on argument: <path/to/episode.yml>"));
+    }
+
+    let content = fs::read_to_string(args[1].clone())?;
     let episode: Episode = serde_yaml::from_str(&content)?;
-    let mut context = Context::new();
-    context.add("episode", &episode);
+    let mut context = TeraContext::new();
+    context.insert("episode", &episode);
 
     let readme = TEMPLATES.render("SHOW_NOTES.md", &context);
     write_to_file(
         format!("episode/{}/README.md", episode.number),
-        &readme.expect("Cannot render README.md"),
+        &readme.context("Cannot render README.md")?,
     )?;
+
+    fs::create_dir_all(format!("episode/{}/meta", episode.number))?;
 
     let readme = TEMPLATES.render("WEBSITE.md", &context);
     write_to_file(
         format!("episode/{}/meta/index.md", episode.number),
-        &readme.expect("Cannot render WEBSITE.md"),
+        &readme.context("Cannot render WEBSITE.md")?,
     )?;
 
     let youtube = TEMPLATES.render("YOUTUBE.md", &context);
     write_to_file(
         format!("episode/{}/meta/YOUTUBE.md", episode.number),
-        &youtube.expect("Cannot render YouTube description"),
+        &youtube.context("Cannot render YouTube description")?,
     )?;
 
     let youtube_title = TEMPLATES.render("YOUTUBE_TITLE.md", &context);
     write_to_file(
         format!("episode/{}/meta/YOUTUBE_TITLE.md", episode.number),
-        &youtube_title.expect("Cannot render YouTube title"),
+        &youtube_title.context("Cannot render YouTube title")?,
     )?;
 
     let tweet = TEMPLATES.render("TWEET.md", &context);
     write_to_file(
         format!("episode/{}/meta/TWEET.md", episode.number),
-        &tweet.expect("Cannot render tweet"),
+        &tweet.context("Cannot render tweet")?,
     )?;
 
     let slug = TEMPLATES.render("EPISODE_LIST.md", &context);
-    println!("{}", slug.expect("Cannot render episode list entry"));
-});
+    println!("{}", slug.context("Cannot render episode list entry")?);
+    Ok(())
+}

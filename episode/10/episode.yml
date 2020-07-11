@@ -1,0 +1,30 @@
+number: 10
+title: Checking Github links
+id: XXXXXXXXXXX
+intro: Writing a basic link checker for Github
+details: > 
+    We'll also hit a Rust compiler bug, which panics the program (does not
+    happen in nightly).
+    The project now lives happily at ...lychee
+keywords:
+  - url
+  - checking
+  - ice
+  - compiler bug
+notes:
+  - "githubrs: https://github.com/github-rs/github-rs"
+  - "reqwest: https://github.com/seanmonstar/reqwest"
+metas:
+  - "Color scheme: Github Dark"
+  - "Tips for faster compile times: https://endler.dev/2020/rust-compile-times/"
+licenses:
+  - Cardenio Modern Font by the amazing Nils Cordes (nilscordes.com)
+  - Clapping sound by theliongirl10 on freesound https://freesound.org/people/theliongirl10/sounds/411217/
+markers:
+  - "Golang code: 1:28"
+  - "Trying to run our concurrent Go code: 5:41"
+  - "What I don't like about concurrent Go code: 8:31"
+  - "Rust code: 9:38"
+  - "From sequential to concurrent code: 15:36"
+  - "The beauty of Rust: 23:23"
+  - "Handling errors in for_each: 28:05"

@@ -1,21 +1,27 @@
-# Episode 10 - Checking Github Links
+# Episode 10 - Hitting A Bug In The Rust Compiler - While Writing A Boring Link Checker
 
 [![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/10/)
-**[&#x25b6; Watch now on Youtube!](https://youtu.be/XXXXXXXXXXX)**
+**[&#x25b6; Watch now on Youtube!](https://youtu.be/DArJCR0HDL8)**
 
-Writing a basic link checker for Github
-We'll also hit a Rust compiler bug, which panics the program (does not happen in nightly).
+Long time no see. Let's break the Rust Compiler while I work on a commandline tool for checking links, okay?
+
+Hot off the press, here's a brand new episode of Hello Rust, hosted by yours truly: Matthias Endler. While checking links is not the most exciting topic of all times, let's all enjoy the simple things and be modest in your expections. Oh, we also hit a Rust compiler bug in stable Rust (ICE, as the cool kids call them), which panics the program (fixed in nightly).
 
 
 
 If you like to get notified about new episodes, [please subscribe to my channel](https://www.youtube.com/hellorust) 😊.
 
-Keywords: url, checking, ice, compiler bug
+Keywords: commandline, url, checking, ice, compiler bug
 
 ## Things I mentioned during the show
 
 * githubrs: https://github.com/github-rs/github-rs
 * reqwest: https://github.com/seanmonstar/reqwest
+* https://github.com/ptasz3k/md-link-check
+* envy: https://github.com/mre/envy
+* snippet: https://marketplace.visualstudio.com/items?itemName=vscode-snippet.Snippet
+* https://emojifinder.com/
+* Tips for faster compile times: https://endler.dev/2020/rust-compile-times/
 
 ## Meta
 
@@ -24,11 +30,13 @@ Keywords: url, checking, ice, compiler bug
 
 ## Resources and licenses
 
-* Comedic Boing, A.wav by InspectorJ (www.jshaw.co.uk) of Freesound.org
-* Using 188709__setuniman__thoughts-1a37 by Setuniman (https://freesound.org/people/Setuniman/packs/9857/)
-* Yay sound by jbeetle https://freesound.org/people/jbeetle/sounds/274510/
-* piano-improv-prog-clumsy-raucous.wav by newagesoup https://freesound.org/people/newagesoup/sounds/341352/
-* [Crayon designed by Terdpongvector](https://www.freepik.com/free-vector/school-stuff-collection_1060700.htm)
+* Juanitos - Hola Hola Bossa Nova https://www.youtube.com/watch?v=hRq53VCMsao
+* Cardenio Modern Font by the amazing Nils Cordes (nilscordes.com)
+* Clapping sound by theliongirl10 on freesound https://freesound.org/people/theliongirl10/sounds/411217/
+* Cinematic boom by juskiddink on freesound https://freesound.org/people/juskiddink/sounds/130890/
+* Snap sound https://www.youtube.com/watch?v=lWvTV9Tl5PE
+* Der Sommer: Chorus: Ach, Das Ungewitter Naht by MIT Concert Choir https://freemusicarchive.org/music/MIT_Concert_Choir/Haydn_The_Seasons_Die_Jahreszeiten/19_-_Der_Sommer-_Chorus-_Ach_Das_Ungewitter_Naht
+* Yay sound: https://freesound.org/people/Reitanna/sounds/323703/
 
 
 

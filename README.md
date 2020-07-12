@@ -29,9 +29,9 @@ This show is free for everybody to watch. If you want it to stay this way, consi
 * [#8: **Let'S Write A Python Module!**](/episode/8) - Tutorial, FFI, pyo3, Module, Extension, Python [[Video](https://youtu.be/D9r__qxtRMQ)]
 * [#9: **Go Vs Rust - Concurrency And Race Conditions**](/episode/9) - race-conditions, ownership, mutex, concurrency, rayon, golang, rustlang [[Video](https://youtu.be/B5xYBrxVSiE)]
 
-#### Season 2 - Soon? 😙
+#### Season 2 😙
 
-* [#1: **Checking Github Links**](/episode/10) - url, checking, ice, compiler bug [[Video](https://youtu.be/XXXXXXXXXXX)]
+* [#1: **Hitting A Bug In The Rust Compiler - While Writing A Boring Link Checker**](/episode/10) - commandline, url, checking, ice, compiler bug [[Video](https://youtu.be/DArJCR0HDL8)]
 
 If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 

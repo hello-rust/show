@@ -1,8 +1,13 @@
+✅ Subscribe: https://www.youtube.com/c/hellorust
+💖 Sponsor: https://github.com/sponsors/mre
+🏠 Website: https://hello-rust.show
+👨‍💻️ Github: https://github.com/hello-rust/show  
+🐦 Twitter: https://twitter.com/hellorustshow  
+
 {{ episode.intro }} 🤓 
 
 {% if episode.markers -%}
 Markers (for navigation):
-
 {% for marker in episode.markers -%}
 {{ marker }}
 {% endfor %}
@@ -24,13 +29,5 @@ Licensing
 
 Keywords: {{ episode.keywords | join(sep=", ") }}
 
-Hello Rust! is a show about the Rust programming language.
-My goal is to address beginner and intermediate Rust questions and show that systems programming can be a lot of fun!
-
-Please subscribe: https://www.youtube.com/channel/UCZ_EWaQZCZuGGfnuqUoHujw 😊 
-
-WEBSITE: http://hello-rust.show/  
-GITHUB: https://github.com/hello-rust/show  
-TWITTER: https://twitter.com/hellorustshow  
-
-💖 Support the show by becoming a patron at https://www.patreon.com/bePatron?c=1568097
+Hello Rust! is a show about the Rust programming language.  
+My goal is to make systems programming accessible and entertaining for everyone.

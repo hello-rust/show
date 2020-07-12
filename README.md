@@ -31,7 +31,7 @@ This show is free for everybody to watch. If you want it to stay this way, consi
 
 #### Season 2 - Soon? 😙
 
-* ...
+* [#1: **Checking Github Links**](/episode/10) - url, checking, ice, compiler bug [[Video](https://youtu.be/XXXXXXXXXXX)]
 
 If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
 

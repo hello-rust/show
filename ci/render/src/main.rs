@@ -22,7 +22,7 @@ struct Episode {
     errata: Option<Vec<String>>,
     metas: Option<Vec<String>>,
     licenses: Option<Vec<String>>,
-    markers: Option<Vec<String>>,
+    chapters: Option<Vec<String>>,
 }
 
 lazy_static! {

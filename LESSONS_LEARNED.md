@@ -81,7 +81,7 @@
 - Similarly, people were frustrated about the flow of the show: some said
   I was rushing over some topics, others thought that it was dragging along.
   What I did was adding a lot more links to entry-level topics for onboarding
-  beginners and adding markers to the videos so that people could jump to the
+  beginners and adding chapters to the videos so that people could jump to the
   interesting bits right away. Similarly, I suggest to watch the videos at 1.5x
   the speed if you feel bored. That's a nice variation to live-coding where
   you're kind of stuck with one pace.

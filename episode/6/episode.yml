@@ -3,8 +3,8 @@ title: Parameterized tests, macros, and refactoring
 id: XJPci7GI-qg
 intro: Let's fix a bug in my balanced brackets code and learn a few things about test organization and traits
 details: >
-      There's some stuff to improve in my coding puzzle code from last time, balanced brackets.
-      Can you spot the bug and fix it? I'll show you what's wrong and an idiomatic way to solve the problem.
+  There's some stuff to improve in my coding puzzle code from last time, balanced brackets.
+  Can you spot the bug and fix it? I'll show you what's wrong and an idiomatic way to solve the problem.
 improvments:
   - "[la10736](https://github.com/la10736) added [use rstest instead macros](https://github.com/hello-rust/show/pull/50) that use rstest_parametrize to create parametrized tests."
 keywords:
@@ -19,10 +19,9 @@ notes:
 licenses:
   - "Comic suspense sound by tyops: https://freesound.org/people/tyops/sounds/347221/"
   - "Background music: [Juanitos - Hola_Hola_Bossa_Nova](http://freemusicarchive.org/music/Juanitos/)"
-markers:
+chapters:
   - "Straight to the code: 0:51"
   - "Test reorganization: 3:46"
   - "Parameterized tests using macros: 7:00"
   - "Replacing Into with AsRef: 12:33"
   - "Impl Trait: 14:35"
-

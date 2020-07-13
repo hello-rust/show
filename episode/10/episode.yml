@@ -2,15 +2,15 @@ number: 10
 title: Hitting A Bug in the Rust Compiler - While Writing A Boring Link Checker
 id: DArJCR0HDL8
 intro: >
-    Long time no see. Let's break the Rust Compiler while I work on a
-    commandline tool for checking links, okay?
-details: > 
-    Hot off the press, here's a brand new episode of Hello Rust, hosted by yours
-    truly: Matthias Endler.
-    While checking links is not the most exciting topic of all times, let's all
-    enjoy the simple things and be modest in your expections.
-    Oh, we also hit a Rust compiler bug in stable Rust (ICE, as the cool kids call them), which
-    panics the program (fixed in nightly).
+  Long time no see. Let's break the Rust Compiler while I work on a
+  commandline tool for checking links, okay?
+details: >
+  Hot off the press, here's a brand new episode of Hello Rust, hosted by yours
+  truly: Matthias Endler.
+  While checking links is not the most exciting topic of all times, let's all
+  enjoy the simple things and be modest in your expections.
+  Oh, we also hit a Rust compiler bug in stable Rust (ICE, as the cool kids call them), which
+  panics the program (fixed in nightly).
 keywords:
   - commandline
   - url
@@ -35,7 +35,7 @@ licenses:
   - "Snap sound https://www.youtube.com/watch?v=lWvTV9Tl5PE"
   - "Der Sommer: Chorus: Ach, Das Ungewitter Naht by MIT Concert Choir https://freemusicarchive.org/music/MIT_Concert_Choir/Haydn_The_Seasons_Die_Jahreszeiten/19_-_Der_Sommer-_Chorus-_Ach_Das_Ungewitter_Naht"
   - "Yay sound: https://freesound.org/people/Reitanna/sounds/323703/"
-markers:
+chapters:
   - "Our code skeleton: 1:09"
   - "github-rs Repository API: 2:38"
   - "Github token + envy: 4:50"

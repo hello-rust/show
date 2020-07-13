@@ -3,8 +3,8 @@ title: Parsing dates using proptest and TDD
 id: zb7SD0Jco6g
 intro: Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.
 details: >
-      Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame).
-      We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
+  Let's take a look at proptest, a library for automatically generating testcases similar to quickcheck (of Haskell fame).
+  We will parse informal english dates like "4th of September 1927" using Proptest and TDD.
 keywords:
   - Property testing
   - Quickcheck
@@ -24,12 +24,11 @@ licenses:
   - "Pizzicato by Setuniman: https://freesound.org/people/Setuniman/sounds/149827/"
   - "Lynx pizzicanto by filmistro: https://filmstro.com/music/pizzicato-strings"
   - "Bug image: https://www.freepik.com/free-vector/funny-insects-icon-set_1488662.htm#term=bug&page=1&position=9"
-markers:
-- "Straight to the code!: 0:46"
-- "Our first test: 8:03"
-- "Bug fixing countdown: 14:09"
-- "Vector lookup using position(): 21:15"
-- "Introduction to proptest: 33:38"
-- "Hello Campino: 47:41"
-- "Summary: 55:42"
-
+chapters:
+  - "Straight to the code!: 0:46"
+  - "Our first test: 8:03"
+  - "Bug fixing countdown: 14:09"
+  - "Vector lookup using position(): 21:15"
+  - "Introduction to proptest: 33:38"
+  - "Hello Campino: 47:41"
+  - "Summary: 55:42"

@@ -2,12 +2,12 @@ number: 5
 title: Coding Challenge - Balanced Brackets
 id: XcuLHO8z_RA
 intro: >
-      Today we will do a quick interview question called "balanced brackets"
+  Today we will do a quick interview question called "balanced brackets"
 details: >
-      I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time.
-      In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine,
-      to check if an input consisting of brackets has exactly one closing bracket for each opening bracket.
-      (Psst... I'm hiding a bug in my code, can you find it? 😉 Answer here: https://github.com/hello-rust/show/pull/31)
+  I maintain a list of common interview questions on Github, that is perfect for some quick fun exercise from time to time.
+  In this case I'd like to introduce you to a task called "balanced brackets", which is some sort of state machine,
+  to check if an input consisting of brackets has exactly one closing bracket for each opening bracket.
+  (Psst... I'm hiding a bug in my code, can you find it? 😉 Answer here: https://github.com/hello-rust/show/pull/31)
 keywords:
   - Into trait
   - Pattern matching
@@ -28,7 +28,7 @@ licenses:
   - "Coin sound by [ProjectsU012](https://freesound.org/people/ProjectsU012/sounds/341695/)"
   - "Blip sound by [ProjectsU012](https://freesound.org/people/ProjectsU012/sounds/341024/)"
   - "Mystery sound by [FoolBoyMedia](https://freesound.org/people/FoolBoyMedia/sounds/256099/#)"
-markers:
+chapters:
   - "Straight to the code!: 1:28"
   - "Into trait: 2:12"
   - "Using a stack for keeping state: 3:13"

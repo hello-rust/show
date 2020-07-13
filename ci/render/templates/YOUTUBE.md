@@ -6,10 +6,10 @@
 
 {{ episode.intro }} 🤓 
 
-{% if episode.markers -%}
-Markers (for navigation):
-{% for marker in episode.markers -%}
-{{ marker }}
+{% if episode.chapters-%}
+Chapters
+{% for chapter in episode.chapters -%}
+{{ chapter }}
 {% endfor %}
 {% endif -%}
 

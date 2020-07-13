@@ -49,7 +49,7 @@ their own show.
 When uploading the video, I first set it to "unlisted".  That gives me another
 opportunity to check the quality and the editing of the final cut.  At this
 phase, I also add show notes to the video description, adjust the title and add
-time markers to the video description.
+chapters to the video description.
 
 ## Publication
 

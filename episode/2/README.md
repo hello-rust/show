@@ -41,5 +41,5 @@ Keywords: iterators, map, filter, Entry API, List comprehensions
 Preparing, recording, and editing an episode takes a substantial amount of time
 (around 30 hours total). I do all of this next to my fulltime dayjob.
 If you want to show your appreciation and help me keep the content free
-for everybody to enjoy, [please consider supporting me on
-Patreon](https://www.patreon.com/bePatron?c=1568097) - no matter the amount. ❤️
+for everybody to enjoy, [please consider sponsoring me on
+Github](https://github.com/sponsors/mre/) - no matter the amount. ❤️

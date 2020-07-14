@@ -12,7 +12,7 @@ In this repository, you find the list of previous episodes, the planned shows an
 
 As you know, producing content takes a lot of time and effort. On top of that, running a YouTube channel requires getting a lot of expensive hardware (like recording and editing equipment) to achieve somewhat acceptable quality.
 This show is free for everybody to watch. If you want it to stay this way, consider donating.  
-[**Become a patron**](https://www.patreon.com/bePatron?c=1568097) and earn a special place in my heart &mdash; forever. ❤️  
+[**Sponsor on Github**](https://github.com/sponsors/mre/) and earn a special place in my heart &mdash; forever. ❤️  
 
 ### List of episodes
 

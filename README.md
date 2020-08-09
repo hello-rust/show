@@ -33,7 +33,7 @@ This show is free for everybody to watch. If you want it to stay this way, consi
 
 * [#1: **Hitting A Bug In The Rust Compiler - While Writing A Boring Link Checker**](/episode/10) - commandline, url, checking, ice, compiler bug [[Video](https://youtu.be/DArJCR0HDL8)]
 
-If you have an idea for a future show, [don't hesitate to create a new issue or upvote an exiting one](/issues).
+If you have an idea for a future show, [don't hesitate to create a new issue or upvote an existing one](/issues).
 
 ### Inspiration
 

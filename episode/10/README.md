@@ -3,7 +3,7 @@
 [![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/10/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/DArJCR0HDL8)**
 
-Long time no see. Let's break the Rust Compiler while I work on a commandline tool for checking links, okay?
+Long time no see. Let's break the Rust Compiler while I work on a commandline tool for checking links, okay? The link checker we build is now a standalone project that lives here: https://github.com/lycheeverse/lychee
 
 Hot off the press, here's a brand new episode of Hello Rust, hosted by yours truly: Matthias Endler. While checking links is not the most exciting topic of all times, let's all enjoy the simple things and be modest in your expections. Oh, we also hit a Rust compiler bug in stable Rust (ICE, as the cool kids call them), which panics the program (fixed in nightly).
 
@@ -15,6 +15,7 @@ Keywords: commandline, url, checking, ice, compiler bug
 
 ## Things I mentioned during the show
 
+* lychee link checker: https://github.com/lycheeverse/lychee
 * githubrs: https://github.com/github-rs/github-rs
 * reqwest: https://github.com/seanmonstar/reqwest
 * https://github.com/ptasz3k/md-link-check

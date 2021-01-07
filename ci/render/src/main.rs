@@ -27,14 +27,13 @@ struct Episode {
 
 lazy_static! {
     pub static ref TEMPLATES: Tera = {
-        let tera = match Tera::new("ci/render/templates/**/*") {
+        match Tera::new("ci/render/templates/**/*") {
             Ok(t) => t,
             Err(e) => {
                 println!("Parsing error(s): {}", e);
                 ::std::process::exit(1);
             }
-        };
-        tera
+        }
     };
 }
 

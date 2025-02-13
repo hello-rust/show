@@ -1,6 +1,6 @@
 # Episode 5 - Coding Challenge - Balanced Brackets
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/5/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/XcuLHO8z_RA)**
 
 Today we will do a quick interview question called "balanced brackets"

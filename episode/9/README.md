@@ -1,6 +1,6 @@
 # Episode 9 - Go Vs Rust - Concurrency And Race Conditions
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/9/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/B5xYBrxVSiE)**
 
 It's hard to put into words what I like about Rust. Easier to show with a quick example about concurrency and borrowing.

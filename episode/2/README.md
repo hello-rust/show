@@ -1,6 +1,6 @@
 # Episode 2 - Snakes And Gears
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/2/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/bS5rtxWd2yQ)**
 
 Let's talk about Python and Rust. I used to do a lot more Python than I do now, but I still love it for its beauty.  

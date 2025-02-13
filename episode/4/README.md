@@ -1,6 +1,6 @@
 # Episode 4 - Touch Typing Tutor
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/4/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/S0Vubd-C5-o)**
 
 I hack on a small application that will help me get better at touch typing.

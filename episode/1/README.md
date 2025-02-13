@@ -1,6 +1,6 @@
 # Episode 1 - Hello Universe
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/1/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/STWuPMcwwbw)**
 
 This is the very first real coding episode of "Hello Rust!". Today we will write *hello world*, but by leveraging the builder pattern, enums, and traits to support different languages (hence the title "Hello Universe").

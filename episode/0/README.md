@@ -1,6 +1,6 @@
 # Episode 0 - Humble Beginnings
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/0/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/jMJRTjnh_jo)**
 
 This is the very first episode of "Hello Rust!". I'm so excited!

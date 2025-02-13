@@ -1,6 +1,6 @@
 # Episode 3 - A Code Review
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/3/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/a6KWRvAPsmo)**
 
 Today we will do our first code review. 

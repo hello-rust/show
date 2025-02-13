@@ -1,6 +1,6 @@
 # Episode 8 - Let'S Write A Python Module!
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/8/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/D9r__qxtRMQ)**
 
 Today, I want to show you how to write a Python extension in Rust using pyo3.

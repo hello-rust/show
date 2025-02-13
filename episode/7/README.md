@@ -1,6 +1,6 @@
 # Episode 7 - Parsing Dates Using Proptest And Tdd
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/7/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/zb7SD0Jco6g)**
 
 Testing is hard, as can be seen in the last two episodes. That's why I looked around for better alternatives and found proptest.

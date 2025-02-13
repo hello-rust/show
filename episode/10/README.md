@@ -1,6 +1,6 @@
 # Episode 10 - Hitting A Bug In The Rust Compiler - While Writing A Boring Link Checker
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/10/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/DArJCR0HDL8)**
 
 Long time no see. Let's break the Rust Compiler while I work on a commandline tool for checking links, okay? The link checker we build is now a standalone project that lives here: https://github.com/lycheeverse/lychee

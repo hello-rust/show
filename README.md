@@ -1,6 +1,6 @@
  ![Hello Rust Show logo](logo.png)
 
-[🏠 Homepage](https://hello-rust.show) | [▶️ YouTube](https://www.youtube.com/hellorust) | [❤️ Sponsor](https://github.com/sponsors/mre) | [🐦 Twitter](https://twitter.com/hellorustshow)
+[🏠 Homepage](https://corrode.dev/hello-rust/) | [▶️ YouTube](https://www.youtube.com/hellorust) | [❤️ Sponsor](https://github.com/sponsors/mre) | [🐦 Twitter](https://twitter.com/hellorustshow)
 
 This is the main repository of *Hello Rust*, a coding show by [Matthias
 Endler](@mre) about the Rust programming language (https://www.youtube.com/hellorust).  

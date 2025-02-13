@@ -1,6 +1,6 @@
 ✅ Subscribe: https://www.youtube.com/c/hellorust
 💖 Sponsor: https://github.com/sponsors/mre
-🏠 Website: https://hello-rust.show
+🏠 Website: https://corrode.dev/hello-rust/ 
 👨‍💻️ Github: https://github.com/hello-rust/show  
 🐦 Twitter: https://twitter.com/hellorustshow  
 

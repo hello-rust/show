@@ -1,6 +1,6 @@
 # Episode {{ episode.number }} - {{ episode.title | title }}
 
-[![YouTube video thumbnail](./thumb.jpg)](https://hello-rust.show/{{ episode.number }}/)
+[![YouTube video thumbnail](./thumb.jpg)](https://corrode.dev/hello-rust/)
 **[&#x25b6; Watch now on Youtube!](https://youtu.be/{{episode.id}})**
 
 {{ episode.intro }}  
